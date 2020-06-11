@@ -1,6 +1,6 @@
 --[[
 	 Gui to Lua Converter
--- Revamped by:HoIyScript
+-- Revamped by: WTF YOU DOING LOOKING AT MY SCRIPTS KID
 --]]
 
 
