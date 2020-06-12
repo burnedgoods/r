@@ -62,7 +62,7 @@ local AutoExecute = Instance.new("Folder")
 --]]
 
 SafeLEGUI.Name = "SafeLEGUI"
-SafeLEGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SafeLEGUI.Parent = game.CoreGui
 SafeLEGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
