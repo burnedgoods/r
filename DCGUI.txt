@@ -1,6 +1,6 @@
 --[[
 	 Gui to Lua Converter
--- Revamped by: bruh wyd
+-- Revamped by:HoIyScript
 --]]
 
 
@@ -61,13 +61,7 @@ local BountyJob = Instance.new("TextButton")
 local DiedMessage = Instance.new("TextBox")
 local Teleport = Instance.new("TextButton")
 local BuildShipmentFactory = Instance.new("TextButton")
-local TeleportsToggleOn = Instance.new("TextButton")
-local TeleportsToggleOff = Instance.new("TextButton")
-local Frame = Instance.new("Frame")
-local TPDON = Instance.new("TextButton")
-local TPFED = Instance.new("TextButton")
-local TPWF = Instance.new("TextButton")
-local StartJob = Instance.new("TextButton")
+local AutoShipment = Instance.new("TextButton")
 local RobberyManipulationTab = Instance.new("Frame")
 local TopTitle_7 = Instance.new("TextLabel")
 local Back_6 = Instance.new("TextButton")
@@ -761,98 +755,19 @@ BuildShipmentFactory.TextScaled = true
 BuildShipmentFactory.TextSize = 14
 BuildShipmentFactory.TextWrapped = true
 
-TeleportsToggleOn.Name = "TeleportsToggleOn"
-TeleportsToggleOn.Parent = MiscellaneousManipulationTab
-TeleportsToggleOn.BackgroundColor3 = Color3.new(0, 0, 0)
-TeleportsToggleOn.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TeleportsToggleOn.BorderSizePixel = 5
-TeleportsToggleOn.Position = UDim2.new(0, 134, 0, 173)
-TeleportsToggleOn.Size = UDim2.new(0, 61, 0, 36)
-TeleportsToggleOn.ZIndex = -1
-TeleportsToggleOn.Font = Enum.Font.Code
-TeleportsToggleOn.Text = "Teleports >"
-TeleportsToggleOn.TextColor3 = Color3.new(1, 1, 1)
-TeleportsToggleOn.TextScaled = true
-TeleportsToggleOn.TextSize = 14
-TeleportsToggleOn.TextWrapped = true
-
-TeleportsToggleOff.Name = "TeleportsToggleOff"
-TeleportsToggleOff.Parent = MiscellaneousManipulationTab
-TeleportsToggleOff.BackgroundColor3 = Color3.new(0, 0, 0)
-TeleportsToggleOff.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TeleportsToggleOff.BorderSizePixel = 5
-TeleportsToggleOff.Position = UDim2.new(0, 134, 0, 173)
-TeleportsToggleOff.Size = UDim2.new(0, 61, 0, 36)
-TeleportsToggleOff.Visible = false
-TeleportsToggleOff.Font = Enum.Font.Code
-TeleportsToggleOff.Text = "Teleports <"
-TeleportsToggleOff.TextColor3 = Color3.new(1, 1, 1)
-TeleportsToggleOff.TextScaled = true
-TeleportsToggleOff.TextSize = 14
-TeleportsToggleOff.TextWrapped = true
-
-Frame.Parent = TeleportsToggleOff
-Frame.BackgroundColor3 = Color3.new(0, 0, 0)
-Frame.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-Frame.BorderSizePixel = 5
-Frame.Position = UDim2.new(1.52459013, 0, -0.0833333358, 0)
-Frame.Size = UDim2.new(0, 348, 0, 42)
-Frame.Visible = false
-
-TPDON.Name = "TPDON"
-TPDON.Parent = Frame
-TPDON.BackgroundColor3 = Color3.new(0, 0, 0)
-TPDON.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TPDON.BorderSizePixel = 5
-TPDON.Size = UDim2.new(0, 110, 0, 42)
-TPDON.Font = Enum.Font.Code
-TPDON.Text = "Teleport Boxes to Donut Shop"
-TPDON.TextColor3 = Color3.new(1, 1, 1)
-TPDON.TextScaled = true
-TPDON.TextSize = 14
-TPDON.TextWrapped = true
-
-TPFED.Name = "TPFED"
-TPFED.Parent = Frame
-TPFED.BackgroundColor3 = Color3.new(0, 0, 0)
-TPFED.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TPFED.BorderSizePixel = 5
-TPFED.Position = UDim2.new(0.341723055, 0, 0, 0)
-TPFED.Size = UDim2.new(0, 110, 0, 42)
-TPFED.Font = Enum.Font.Code
-TPFED.Text = "Teleport Boxes to Federal Reserve Bank"
-TPFED.TextColor3 = Color3.new(1, 1, 1)
-TPFED.TextScaled = true
-TPFED.TextSize = 14
-TPFED.TextWrapped = true
-
-TPWF.Name = "TPWF"
-TPWF.Parent = Frame
-TPWF.BackgroundColor3 = Color3.new(0, 0, 0)
-TPWF.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TPWF.BorderSizePixel = 5
-TPWF.Position = UDim2.new(0.681052983, 0, 0, 0)
-TPWF.Size = UDim2.new(0, 110, 0, 42)
-TPWF.Font = Enum.Font.Code
-TPWF.Text = "Teleport Boxes to Wells Fargo"
-TPWF.TextColor3 = Color3.new(1, 1, 1)
-TPWF.TextScaled = true
-TPWF.TextSize = 14
-TPWF.TextWrapped = true
-
-StartJob.Name = "StartJob"
-StartJob.Parent = MiscellaneousManipulationTab
-StartJob.BackgroundColor3 = Color3.new(0, 0, 0)
-StartJob.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-StartJob.BorderSizePixel = 5
-StartJob.Position = UDim2.new(0.326829255, 0, 0.80092591, 0)
-StartJob.Size = UDim2.new(0, 52, 0, 36)
-StartJob.Font = Enum.Font.Code
-StartJob.Text = "Start Shipment Job"
-StartJob.TextColor3 = Color3.new(1, 1, 1)
-StartJob.TextScaled = true
-StartJob.TextSize = 14
-StartJob.TextWrapped = true
+AutoShipment.Name = "AutoShipment"
+AutoShipment.Parent = MiscellaneousManipulationTab
+AutoShipment.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoShipment.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+AutoShipment.BorderSizePixel = 5
+AutoShipment.Position = UDim2.new(0.326829255, 0, 0.80092591, 0)
+AutoShipment.Size = UDim2.new(0, 122, 0, 36)
+AutoShipment.Font = Enum.Font.Code
+AutoShipment.Text = "Auto Shipment"
+AutoShipment.TextColor3 = Color3.new(1, 1, 1)
+AutoShipment.TextScaled = true
+AutoShipment.TextSize = 14
+AutoShipment.TextWrapped = true
 
 RobberyManipulationTab.Name = "Robbery Manipulation Tab"
 RobberyManipulationTab.Parent = MainFrame
@@ -985,7 +900,7 @@ AutoExecute.Parent = LEGUI
 	 Scripts:
 --]]
 
-local function NGED_fake_script() -- VehicleManipulation.LocalScript 
+local function JMZKVR_fake_script() -- VehicleManipulation.LocalScript 
 	local script = Instance.new('LocalScript', VehicleManipulation)
 
 	
@@ -996,8 +911,8 @@ local function NGED_fake_script() -- VehicleManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(NGED_fake_script)()
-local function EAVKPJ_fake_script() -- CharacterManipulation.LocalScript 
+coroutine.wrap(JMZKVR_fake_script)()
+local function TPSH_fake_script() -- CharacterManipulation.LocalScript 
 	local script = Instance.new('LocalScript', CharacterManipulation)
 
 	
@@ -1008,8 +923,8 @@ local function EAVKPJ_fake_script() -- CharacterManipulation.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(EAVKPJ_fake_script)()
-local function AHRF_fake_script() -- MoneyManipulation.LocalScript 
+coroutine.wrap(TPSH_fake_script)()
+local function MLBPLDD_fake_script() -- MoneyManipulation.LocalScript 
 	local script = Instance.new('LocalScript', MoneyManipulation)
 
 	
@@ -1020,8 +935,8 @@ local function AHRF_fake_script() -- MoneyManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(AHRF_fake_script)()
-local function KVVL_fake_script() -- WeaponManipulation.LocalScript 
+coroutine.wrap(MLBPLDD_fake_script)()
+local function TTYKVYZ_fake_script() -- WeaponManipulation.LocalScript 
 	local script = Instance.new('LocalScript', WeaponManipulation)
 
 	
@@ -1033,8 +948,8 @@ local function KVVL_fake_script() -- WeaponManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(KVVL_fake_script)()
-local function VRTZEQP_fake_script() -- MiscellaneousManipulation.LocalScript 
+coroutine.wrap(TTYKVYZ_fake_script)()
+local function LFRXOE_fake_script() -- MiscellaneousManipulation.LocalScript 
 	local script = Instance.new('LocalScript', MiscellaneousManipulation)
 
 	
@@ -1045,8 +960,8 @@ local function VRTZEQP_fake_script() -- MiscellaneousManipulation.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(VRTZEQP_fake_script)()
-local function SDDKZY_fake_script() -- RobberyManipulation.LocalScript 
+coroutine.wrap(LFRXOE_fake_script)()
+local function RIEUT_fake_script() -- RobberyManipulation.LocalScript 
 	local script = Instance.new('LocalScript', RobberyManipulation)
 
 	
@@ -1058,8 +973,8 @@ local function SDDKZY_fake_script() -- RobberyManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(SDDKZY_fake_script)()
-local function HXIN_fake_script() -- SpeedBypass.LocalScript 
+coroutine.wrap(RIEUT_fake_script)()
+local function TMPRGV_fake_script() -- SpeedBypass.LocalScript 
 	local script = Instance.new('LocalScript', SpeedBypass)
 
 	
@@ -1071,8 +986,8 @@ local function HXIN_fake_script() -- SpeedBypass.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(HXIN_fake_script)()
-local function VNSA_fake_script() -- Back.LocalScript 
+coroutine.wrap(TMPRGV_fake_script)()
+local function EZTGFY_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	
@@ -1082,8 +997,8 @@ local function VNSA_fake_script() -- Back.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(VNSA_fake_script)()
-local function WAZPZO_fake_script() -- FlyBypass.LocalScript 
+coroutine.wrap(EZTGFY_fake_script)()
+local function RVDAJMZ_fake_script() -- FlyBypass.LocalScript 
 	local script = Instance.new('LocalScript', FlyBypass)
 
 	
@@ -1095,8 +1010,8 @@ local function WAZPZO_fake_script() -- FlyBypass.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(WAZPZO_fake_script)()
-local function YAPFAW_fake_script() -- ServersidedNoFace.LocalScript 
+coroutine.wrap(RVDAJMZ_fake_script)()
+local function IEXIQSG_fake_script() -- ServersidedNoFace.LocalScript 
 	local script = Instance.new('LocalScript', ServersidedNoFace)
 
 	
@@ -1111,8 +1026,8 @@ local function YAPFAW_fake_script() -- ServersidedNoFace.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(YAPFAW_fake_script)()
-local function QZTG_fake_script() -- ServersidedNoHats.LocalScript 
+coroutine.wrap(IEXIQSG_fake_script)()
+local function ELDLH_fake_script() -- ServersidedNoHats.LocalScript 
 	local script = Instance.new('LocalScript', ServersidedNoHats)
 
 	
@@ -1126,8 +1041,8 @@ local function QZTG_fake_script() -- ServersidedNoHats.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(QZTG_fake_script)()
-local function GMIM_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(ELDLH_fake_script)()
+local function DZARVQ_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	
@@ -1138,8 +1053,8 @@ local function GMIM_fake_script() -- InfiniteYield.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(GMIM_fake_script)()
-local function BTBTKVN_fake_script() -- MtoHealKeybind.LocalScript 
+coroutine.wrap(DZARVQ_fake_script)()
+local function FKOGS_fake_script() -- MtoHealKeybind.LocalScript 
 	local script = Instance.new('LocalScript', MtoHealKeybind)
 
 	
@@ -1161,8 +1076,8 @@ local function BTBTKVN_fake_script() -- MtoHealKeybind.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(BTBTKVN_fake_script)()
-local function ICZBUVR_fake_script() -- AutoHeal.LocalScript 
+coroutine.wrap(FKOGS_fake_script)()
+local function ACRIH_fake_script() -- AutoHeal.LocalScript 
 	local script = Instance.new('LocalScript', AutoHeal)
 
 	
@@ -1183,8 +1098,8 @@ local function ICZBUVR_fake_script() -- AutoHeal.LocalScript
 	
 	
 end
-coroutine.wrap(ICZBUVR_fake_script)()
-local function DESEY_fake_script() -- Back_2.LocalScript 
+coroutine.wrap(ACRIH_fake_script)()
+local function FIHF_fake_script() -- Back_2.LocalScript 
 	local script = Instance.new('LocalScript', Back_2)
 
 	
@@ -1195,8 +1110,8 @@ local function DESEY_fake_script() -- Back_2.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(DESEY_fake_script)()
-local function ILMG_fake_script() -- RemotelyBuyACarBomb.LocalScript 
+coroutine.wrap(FIHF_fake_script)()
+local function VBIQW_fake_script() -- RemotelyBuyACarBomb.LocalScript 
 	local script = Instance.new('LocalScript', RemotelyBuyACarBomb)
 
 	
@@ -1216,8 +1131,8 @@ local function ILMG_fake_script() -- RemotelyBuyACarBomb.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ILMG_fake_script)()
-local function UWDLCGN_fake_script() -- RemotelySprayCar.LocalScript 
+coroutine.wrap(VBIQW_fake_script)()
+local function DXWKS_fake_script() -- RemotelySprayCar.LocalScript 
 	local script = Instance.new('LocalScript', RemotelySprayCar)
 
 	
@@ -1233,8 +1148,8 @@ local function UWDLCGN_fake_script() -- RemotelySprayCar.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UWDLCGN_fake_script)()
-local function KALX_fake_script() -- LeftFront.LocalScript 
+coroutine.wrap(DXWKS_fake_script)()
+local function FGQZ_fake_script() -- LeftFront.LocalScript 
 	local script = Instance.new('LocalScript', LeftFront)
 
 	
@@ -1250,8 +1165,8 @@ local function KALX_fake_script() -- LeftFront.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(KALX_fake_script)()
-local function GLRYV_fake_script() -- RightFront.LocalScript 
+coroutine.wrap(FGQZ_fake_script)()
+local function KQPRKPC_fake_script() -- RightFront.LocalScript 
 	local script = Instance.new('LocalScript', RightFront)
 
 	
@@ -1269,8 +1184,8 @@ local function GLRYV_fake_script() -- RightFront.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(GLRYV_fake_script)()
-local function PHKONP_fake_script() -- RightBack.LocalScript 
+coroutine.wrap(KQPRKPC_fake_script)()
+local function WITU_fake_script() -- RightBack.LocalScript 
 	local script = Instance.new('LocalScript', RightBack)
 
 	
@@ -1285,8 +1200,8 @@ local function PHKONP_fake_script() -- RightBack.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(PHKONP_fake_script)()
-local function LNSK_fake_script() -- LeftBack.LocalScript 
+coroutine.wrap(WITU_fake_script)()
+local function BUGXKAN_fake_script() -- LeftBack.LocalScript 
 	local script = Instance.new('LocalScript', LeftBack)
 
 	
@@ -1301,8 +1216,8 @@ local function LNSK_fake_script() -- LeftBack.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(LNSK_fake_script)()
-local function DYCUJ_fake_script() -- UnlockAllCarDoors.LocalScript 
+coroutine.wrap(BUGXKAN_fake_script)()
+local function YKGTVW_fake_script() -- UnlockAllCarDoors.LocalScript 
 	local script = Instance.new('LocalScript', UnlockAllCarDoors)
 
 	
@@ -1319,8 +1234,8 @@ local function DYCUJ_fake_script() -- UnlockAllCarDoors.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(DYCUJ_fake_script)()
-local function DDPO_fake_script() -- Back_3.LocalScript 
+coroutine.wrap(YKGTVW_fake_script)()
+local function UZPWHZ_fake_script() -- Back_3.LocalScript 
 	local script = Instance.new('LocalScript', Back_3)
 
 	
@@ -1331,8 +1246,8 @@ local function DDPO_fake_script() -- Back_3.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(DDPO_fake_script)()
-local function OQMS_fake_script() -- BringATM.LocalScript 
+coroutine.wrap(UZPWHZ_fake_script)()
+local function SDLU_fake_script() -- BringATM.LocalScript 
 	local script = Instance.new('LocalScript', BringATM)
 
 	
@@ -1349,8 +1264,8 @@ local function OQMS_fake_script() -- BringATM.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(OQMS_fake_script)()
-local function FCPIEQO_fake_script() -- BringDroppedCash.LocalScript 
+coroutine.wrap(SDLU_fake_script)()
+local function VFGJQJM_fake_script() -- BringDroppedCash.LocalScript 
 	local script = Instance.new('LocalScript', BringDroppedCash)
 
 	
@@ -1365,8 +1280,8 @@ local function FCPIEQO_fake_script() -- BringDroppedCash.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(FCPIEQO_fake_script)()
-local function VHDJYCY_fake_script() -- Back_4.LocalScript 
+coroutine.wrap(VFGJQJM_fake_script)()
+local function TTMC_fake_script() -- Back_4.LocalScript 
 	local script = Instance.new('LocalScript', Back_4)
 
 	
@@ -1378,8 +1293,8 @@ local function VHDJYCY_fake_script() -- Back_4.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(VHDJYCY_fake_script)()
-local function KZQHDAB_fake_script() -- AutomaticBarret50Cal.LocalScript 
+coroutine.wrap(TTMC_fake_script)()
+local function PGMV_fake_script() -- AutomaticBarret50Cal.LocalScript 
 	local script = Instance.new('LocalScript', AutomaticBarret50Cal)
 
 	
@@ -1394,8 +1309,8 @@ local function KZQHDAB_fake_script() -- AutomaticBarret50Cal.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(KZQHDAB_fake_script)()
-local function KCDO_fake_script() -- Automatic44Magnum.LocalScript 
+coroutine.wrap(PGMV_fake_script)()
+local function DZBAUE_fake_script() -- Automatic44Magnum.LocalScript 
 	local script = Instance.new('LocalScript', Automatic44Magnum)
 
 	
@@ -1410,8 +1325,8 @@ local function KCDO_fake_script() -- Automatic44Magnum.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(KCDO_fake_script)()
-local function YNVUAVQ_fake_script() -- FastRPG7.LocalScript 
+coroutine.wrap(DZBAUE_fake_script)()
+local function BMUHSDY_fake_script() -- FastRPG7.LocalScript 
 	local script = Instance.new('LocalScript', FastRPG7)
 
 	
@@ -1426,8 +1341,8 @@ local function YNVUAVQ_fake_script() -- FastRPG7.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(YNVUAVQ_fake_script)()
-local function QMUP_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(BMUHSDY_fake_script)()
+local function UHCST_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	
@@ -1814,8 +1729,8 @@ local function QMUP_fake_script() -- Aimbot.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(QMUP_fake_script)()
-local function HMEKB_fake_script() -- BuyBarret50CalM4A1.LocalScript 
+coroutine.wrap(UHCST_fake_script)()
+local function EIMAMKP_fake_script() -- BuyBarret50CalM4A1.LocalScript 
 	local script = Instance.new('LocalScript', BuyBarret50CalM4A1)
 
 	
@@ -1831,8 +1746,8 @@ local function HMEKB_fake_script() -- BuyBarret50CalM4A1.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(HMEKB_fake_script)()
-local function OCPS_fake_script() -- Back_5.LocalScript 
+coroutine.wrap(EIMAMKP_fake_script)()
+local function PGJRCE_fake_script() -- Back_5.LocalScript 
 	local script = Instance.new('LocalScript', Back_5)
 
 	
@@ -1843,8 +1758,8 @@ local function OCPS_fake_script() -- Back_5.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(OCPS_fake_script)()
-local function ORTVS_fake_script() -- BountyJob.LocalScript 
+coroutine.wrap(PGJRCE_fake_script)()
+local function JXDXTIL_fake_script() -- BountyJob.LocalScript 
 	local script = Instance.new('LocalScript', BountyJob)
 
 	
@@ -1857,8 +1772,8 @@ local function ORTVS_fake_script() -- BountyJob.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ORTVS_fake_script)()
-local function UQXFEIW_fake_script() -- DiedMessage.LocalScript 
+coroutine.wrap(JXDXTIL_fake_script)()
+local function LXMHGU_fake_script() -- DiedMessage.LocalScript 
 	local script = Instance.new('LocalScript', DiedMessage)
 
 	
@@ -1875,8 +1790,8 @@ local function UQXFEIW_fake_script() -- DiedMessage.LocalScript
 	
 	
 end
-coroutine.wrap(UQXFEIW_fake_script)()
-local function RZYFG_fake_script() -- Teleport.LocalScript 
+coroutine.wrap(LXMHGU_fake_script)()
+local function NNKXI_fake_script() -- Teleport.LocalScript 
 	local script = Instance.new('LocalScript', Teleport)
 
 	
@@ -1897,8 +1812,8 @@ local function RZYFG_fake_script() -- Teleport.LocalScript
 	
 	
 end
-coroutine.wrap(RZYFG_fake_script)()
-local function HOPMDYF_fake_script() -- BuildShipmentFactory.LocalScript 
+coroutine.wrap(NNKXI_fake_script)()
+local function VNEOJUQ_fake_script() -- BuildShipmentFactory.LocalScript 
 	local script = Instance.new('LocalScript', BuildShipmentFactory)
 
 	
@@ -2253,120 +2168,57 @@ local function HOPMDYF_fake_script() -- BuildShipmentFactory.LocalScript
 	
 	
 end
-coroutine.wrap(HOPMDYF_fake_script)()
-local function BHHR_fake_script() -- TeleportsToggleOn.LocalScript 
-	local script = Instance.new('LocalScript', TeleportsToggleOn)
-
-	
-	
-	
-	function onButtonClicked()
-	script.Parent.Parent.TeleportsToggleOff.Frame.Visible = true
-	script.Parent.Parent.TeleportsToggleOff.Visible = true
-	script.Parent.Visible = false
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(BHHR_fake_script)()
-local function SZJXNDA_fake_script() -- TeleportsToggleOff.LocalScript 
-	local script = Instance.new('LocalScript', TeleportsToggleOff)
-
-	
-	
-	
-	function onButtonClicked()
-	script.Parent.Parent.TeleportsToggleOff.Frame.Visible = false
-	script.Parent.Parent.TeleportsToggleOff.Visible = false
-	script.Parent.Parent.TeleportsToggleOn.Visible = true
-	script.Parent.Visible = false
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(SZJXNDA_fake_script)()
-local function WCMYX_fake_script() -- TPDON.LocalScript 
-	local script = Instance.new('LocalScript', TPDON)
-
-	
-	
-	
-	function onButtonClicked()
-	local descendants = game.Workspace:GetDescendants()
-			for index, descendant in pairs(descendants) do
-			if descendant.Name == "Shipment_Box" then
-					descendant.Position = Vector3.new(-944, 16.3, -1090)
-			
-			end
-			end
-		end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(WCMYX_fake_script)()
-local function WJAUTN_fake_script() -- TPFED.LocalScript 
-	local script = Instance.new('LocalScript', TPFED)
-
-	
-	
-	
-	function onButtonClicked()
-	local descendants = game.Workspace:GetDescendants()
-			for index, descendant in pairs(descendants) do
-			if descendant.Name == "Shipment_Box" then
-					descendant.Position = Vector3.new(-969, 16.3, -1081)
-			
-			end
-			end
-		end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(WJAUTN_fake_script)()
-local function SRVHI_fake_script() -- TPWF.LocalScript 
-	local script = Instance.new('LocalScript', TPWF)
-
-	
-	
-	
-	function onButtonClicked()
-	local descendants = game.Workspace:GetDescendants()
-			for index, descendant in pairs(descendants) do
-			if descendant.Name == "Shipment_Box" then
-					descendant.Position = Vector3.new(-969, 16.3, -1102)
-			
-			end
-			end
-		end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(SRVHI_fake_script)()
-local function NDXMAG_fake_script() -- StartJob.LocalScript 
-	local script = Instance.new('LocalScript', StartJob)
+coroutine.wrap(VNEOJUQ_fake_script)()
+local function FAXQWF_fake_script() -- AutoShipment.LocalScript 
+	local script = Instance.new('LocalScript', AutoShipment)
 
 	
 	
 	
 	function onButtonClicked()
 	game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
-	wait(.1)
-	game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
+	        wait(.1)
+	        game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
+	while true do wait(1)
+	    local count = 0
+	    local children = workspace:GetChildren()
+	    for i, child in ipairs(children) do
+	        if child.Name == "Shipment_Box" then
+	            count = count + 1
+	        end
+	    end
+	    if count > 4 then
+	        local text = game:GetService("Players").LocalPlayer.PlayerGui.CrateDelivery.TextLabel.Text
+	        message = text
+	        if string.find(message, "Wells") then
+	            local descendants = game.Workspace:GetChildren()
+	        	for index, descendant in pairs(descendants) do
+	            	if descendant.Name == "Shipment_Box" then
+	            		descendant.Position = Vector3.new(-967, 5, -1102.5)
+	            	end
+	        	end
+	        elseif string.find(message, "Donut") then
+	            local descendants = game.Workspace:GetChildren()
+	        	for index, descendant in pairs(descendants) do
+	        		if descendant.Name == "Shipment_Box" then
+	        			descendant.Position = Vector3.new(-945, 4.6, -1090.5)
+	        		end
+	        	end
+	        elseif string.find(message, "Federal") then
+	            local descendants = game.Workspace:GetChildren()
+	            for index, descendant in pairs(descendants) do
+	        		if descendant.Name == "Shipment_Box" then
+	        		   descendant.Position = Vector3.new(-967, 4.6, -1081.5)
+	        		end
+	            end
+	        end
+	    elseif count == 0 then
+	        game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
+	        wait(.1)
+	        game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
+	        wait(0.1)
+	    end
+	end
 	end
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
@@ -2374,8 +2226,8 @@ local function NDXMAG_fake_script() -- StartJob.LocalScript
 	
 	
 end
-coroutine.wrap(NDXMAG_fake_script)()
-local function JEQWWKU_fake_script() -- Back_6.LocalScript 
+coroutine.wrap(FAXQWF_fake_script)()
+local function KTUO_fake_script() -- Back_6.LocalScript 
 	local script = Instance.new('LocalScript', Back_6)
 
 	
@@ -2386,8 +2238,8 @@ local function JEQWWKU_fake_script() -- Back_6.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(JEQWWKU_fake_script)()
-local function ZZTN_fake_script() -- AntiAFKKick.LocalScript 
+coroutine.wrap(KTUO_fake_script)()
+local function TQGLGEU_fake_script() -- AntiAFKKick.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFKKick)
 
 	
@@ -2406,8 +2258,8 @@ local function ZZTN_fake_script() -- AntiAFKKick.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ZZTN_fake_script)()
-local function FVXFB_fake_script() -- ToWFCodeSeat.LocalScript 
+coroutine.wrap(TQGLGEU_fake_script)()
+local function JSNS_fake_script() -- ToWFCodeSeat.LocalScript 
 	local script = Instance.new('LocalScript', ToWFCodeSeat)
 
 	
@@ -2425,8 +2277,8 @@ local function FVXFB_fake_script() -- ToWFCodeSeat.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(FVXFB_fake_script)()
-local function IGDWCP_fake_script() -- ToWFVault.LocalScript 
+coroutine.wrap(JSNS_fake_script)()
+local function RIHI_fake_script() -- ToWFVault.LocalScript 
 	local script = Instance.new('LocalScript', ToWFVault)
 
 	
@@ -2445,8 +2297,8 @@ local function IGDWCP_fake_script() -- ToWFVault.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(IGDWCP_fake_script)()
-local function GWQU_fake_script() -- AutoRob.LocalScript 
+coroutine.wrap(RIHI_fake_script)()
+local function BUHQ_fake_script() -- AutoRob.LocalScript 
 	local script = Instance.new('LocalScript', AutoRob)
 
 	
@@ -2459,8 +2311,8 @@ local function GWQU_fake_script() -- AutoRob.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(GWQU_fake_script)()
-local function VRHDA_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(BUHQ_fake_script)()
+local function MQFPQD_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
@@ -2472,8 +2324,8 @@ local function VRHDA_fake_script() -- TextButton.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(VRHDA_fake_script)()
-local function ERZLRI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(MQFPQD_fake_script)()
+local function LOEDN_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -2485,8 +2337,8 @@ local function ERZLRI_fake_script() -- TextButton_2.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ERZLRI_fake_script)()
-local function FFOC_fake_script() -- AutoExecute.LocalScript 
+coroutine.wrap(LOEDN_fake_script)()
+local function TMESCVX_fake_script() -- AutoExecute.LocalScript 
 	local script = Instance.new('LocalScript', AutoExecute)
 
 	
@@ -2500,4 +2352,4 @@ local function FFOC_fake_script() -- AutoExecute.LocalScript
 	game.StarterPlayer.StarterCharacterScripts.PlayerSetup:destroy()
 	end
 end
-coroutine.wrap(FFOC_fake_script)()
+coroutine.wrap(TMESCVX_fake_script)()
