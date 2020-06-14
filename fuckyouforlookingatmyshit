@@ -63,6 +63,7 @@ DumbCuntYouArentGettingMyScripts.Parent = stopfuckinglookingatmyshit
 DumbCuntYouArentGettingMyScripts.BackgroundColor3 = Color3.new(1, 0, 0)
 DumbCuntYouArentGettingMyScripts.Position = UDim2.new(0, 0, 0.260442257, 0)
 DumbCuntYouArentGettingMyScripts.Size = UDim2.new(0, 348, 0, 368)
+DumbCuntYouArentGettingMyScripts.Visible = false
 
 Directions.Name = "Directions"
 Directions.Parent = DumbCuntYouArentGettingMyScripts
@@ -124,12 +125,11 @@ DumbCunt.Name = "Dumb Cunt"
 DumbCunt.Parent = DumbCuntYouArentGettingMyScripts
 DumbCunt.BackgroundColor3 = Color3.new(1, 1, 1)
 DumbCunt.BorderSizePixel = 0
-DumbCunt.Position = UDim2.new(0.0747127086, 0, 0.540760875, 0)
+DumbCunt.Position = UDim2.new(0.0747127086, 0, 0.524456501, 0)
 DumbCunt.Size = UDim2.new(0, 112, 0, 42)
 DumbCunt.Font = Enum.Font.SourceSans
 DumbCunt.Text = "Teleport To Shipment Place"
 DumbCunt.TextColor3 = Color3.new(1, 0, 0)
-DumbCunt.TextScaled = true
 DumbCunt.TextSize = 14
 DumbCunt.TextWrapped = true
 
@@ -137,7 +137,7 @@ DumbCunt.TextWrapped = true
 	 Scripts:
 --]]
 
-local function XYCQ_fake_script() -- TextLabel.LocalScript 
+local function NPEOO_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -158,8 +158,8 @@ local function XYCQ_fake_script() -- TextLabel.LocalScript
 	game.CoreGui.stopfuckinglookingatmyshit.Warning.Visible = false
 	
 end
-coroutine.wrap(XYCQ_fake_script)()
-local function AQSERG_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(NPEOO_fake_script)()
+local function TWOSXUF_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -427,8 +427,8 @@ local function AQSERG_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(AQSERG_fake_script)()
-local function SGLN_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(TWOSXUF_fake_script)()
+local function QOSKSI_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -482,8 +482,8 @@ local function SGLN_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(SGLN_fake_script)()
-local function UTJT_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(QOSKSI_fake_script)()
+local function ZRBY_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -503,8 +503,8 @@ local function UTJT_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(UTJT_fake_script)()
-local function EEJMDIK_fake_script() -- DumbCunt.LocalScript 
+coroutine.wrap(ZRBY_fake_script)()
+local function DEIOOWB_fake_script() -- DumbCunt.LocalScript 
 	local script = Instance.new('LocalScript', DumbCunt)
 
 	
@@ -522,4 +522,4 @@ local function EEJMDIK_fake_script() -- DumbCunt.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(EEJMDIK_fake_script)()
+coroutine.wrap(DEIOOWB_fake_script)()
