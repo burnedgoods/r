@@ -17,6 +17,7 @@ local Divider = Instance.new("TextLabel")
 local FuckYou = Instance.new("TextButton")
 local DumbPieceofShit = Instance.new("TextButton")
 local KillYourself = Instance.new("TextButton")
+local DumbCunt = Instance.new("TextButton")
 
 --[[
 	Properties:
@@ -62,7 +63,6 @@ DumbCuntYouArentGettingMyScripts.Parent = stopfuckinglookingatmyshit
 DumbCuntYouArentGettingMyScripts.BackgroundColor3 = Color3.new(1, 0, 0)
 DumbCuntYouArentGettingMyScripts.Position = UDim2.new(0, 0, 0.260442257, 0)
 DumbCuntYouArentGettingMyScripts.Size = UDim2.new(0, 348, 0, 368)
-DumbCuntYouArentGettingMyScripts.Visible = false
 
 Directions.Name = "Directions"
 Directions.Parent = DumbCuntYouArentGettingMyScripts
@@ -70,7 +70,7 @@ Directions.BackgroundColor3 = Color3.new(1, 1, 1)
 Directions.BackgroundTransparency = 1
 Directions.Size = UDim2.new(0, 348, 0, 153)
 Directions.Font = Enum.Font.SourceSans
-Directions.Text = "Directions: Click teleport to the Shipment Place then turn your graphics to ten and wait 1-2 minutes to lower the chances of it breaking. After this, click Build Factory then click Auto Shipment. Then it will start working. If the boxes freeze in the Factory then jump in to kill yourself and click auto shipment again. "
+Directions.Text = "Directions: Click teleport to the Shipment Place while ff'd then turn your graphics to ten and wait 1-2 minutes to lower the chances of it breaking. After this, click Build Factory then click Auto Shipment. Then it will start working. If the boxes freeze in the Factory then jump in to kill yourself and click auto shipment again. "
 Directions.TextColor3 = Color3.new(1, 1, 1)
 Directions.TextScaled = true
 Directions.TextSize = 14
@@ -91,7 +91,7 @@ FuckYou.Name = "Fuck You"
 FuckYou.Parent = DumbCuntYouArentGettingMyScripts
 FuckYou.BackgroundColor3 = Color3.new(1, 1, 1)
 FuckYou.BorderSizePixel = 0
-FuckYou.Position = UDim2.new(0.043103449, 0, 0.540760875, 0)
+FuckYou.Position = UDim2.new(0.488505721, 0, 0.524456501, 0)
 FuckYou.Size = UDim2.new(0, 112, 0, 42)
 FuckYou.Font = Enum.Font.SourceSans
 FuckYou.Text = "Build Factory"
@@ -102,7 +102,7 @@ DumbPieceofShit.Name = "Dumb Piece of Shit"
 DumbPieceofShit.Parent = DumbCuntYouArentGettingMyScripts
 DumbPieceofShit.BackgroundColor3 = Color3.new(1, 1, 1)
 DumbPieceofShit.BorderSizePixel = 0
-DumbPieceofShit.Position = UDim2.new(0.488505751, 0, 0.540760875, 0)
+DumbPieceofShit.Position = UDim2.new(0.0775862038, 0, 0.725543499, 0)
 DumbPieceofShit.Size = UDim2.new(0, 112, 0, 42)
 DumbPieceofShit.Font = Enum.Font.SourceSans
 DumbPieceofShit.Text = "Auto-Shipment"
@@ -113,18 +113,31 @@ KillYourself.Name = "Kill Yourself"
 KillYourself.Parent = DumbCuntYouArentGettingMyScripts
 KillYourself.BackgroundColor3 = Color3.new(1, 1, 1)
 KillYourself.BorderSizePixel = 0
-KillYourself.Position = UDim2.new(0.272988528, 0, 0.739130437, 0)
+KillYourself.Position = UDim2.new(0.488505781, 0, 0.725543499, 0)
 KillYourself.Size = UDim2.new(0, 112, 0, 42)
 KillYourself.Font = Enum.Font.SourceSans
 KillYourself.Text = "Anti-Afk"
 KillYourself.TextColor3 = Color3.new(1, 0, 0)
 KillYourself.TextSize = 14
 
+DumbCunt.Name = "Dumb Cunt"
+DumbCunt.Parent = DumbCuntYouArentGettingMyScripts
+DumbCunt.BackgroundColor3 = Color3.new(1, 1, 1)
+DumbCunt.BorderSizePixel = 0
+DumbCunt.Position = UDim2.new(0.0747127086, 0, 0.540760875, 0)
+DumbCunt.Size = UDim2.new(0, 112, 0, 42)
+DumbCunt.Font = Enum.Font.SourceSans
+DumbCunt.Text = "Teleport To Shipment Place"
+DumbCunt.TextColor3 = Color3.new(1, 0, 0)
+DumbCunt.TextScaled = true
+DumbCunt.TextSize = 14
+DumbCunt.TextWrapped = true
+
 --[[
 	 Scripts:
 --]]
 
-local function VKQPFW_fake_script() -- TextLabel.LocalScript 
+local function XYCQ_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -145,8 +158,8 @@ local function VKQPFW_fake_script() -- TextLabel.LocalScript
 	game.CoreGui.stopfuckinglookingatmyshit.Warning.Visible = false
 	
 end
-coroutine.wrap(VKQPFW_fake_script)()
-local function CFQFXI_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(XYCQ_fake_script)()
+local function AQSERG_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -414,8 +427,8 @@ local function CFQFXI_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(CFQFXI_fake_script)()
-local function TRNECC_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(AQSERG_fake_script)()
+local function SGLN_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -469,8 +482,8 @@ local function TRNECC_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(TRNECC_fake_script)()
-local function SHEI_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(SGLN_fake_script)()
+local function UTJT_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -490,4 +503,23 @@ local function SHEI_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(SHEI_fake_script)()
+coroutine.wrap(UTJT_fake_script)()
+local function EEJMDIK_fake_script() -- DumbCunt.LocalScript 
+	local script = Instance.new('LocalScript', DumbCunt)
+
+	
+		function onButtonClicked()
+	local target = CFrame.new(-885.607788, 7.60004473, -1130.63574) --could be near a brick or in a new area
+				for i, player in ipairs(game:GetService("Players"):GetChildren()) do
+				   --Make sure the character exists and its HumanoidRootPart exists
+				   if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+				       --add an offset of 5 for each character
+				      player.Character.HumanoidRootPart.CFrame = target 
+				   end
+				end	
+	end
+		
+		script.Parent.MouseButton1Down:connect(onButtonClicked)
+	
+end
+coroutine.wrap(EEJMDIK_fake_script)()
