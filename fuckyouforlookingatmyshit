@@ -137,7 +137,7 @@ DumbCunt.TextWrapped = true
 	 Scripts:
 --]]
 
-local function NPEOO_fake_script() -- TextLabel.LocalScript 
+local function WDDNCVV_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -158,8 +158,8 @@ local function NPEOO_fake_script() -- TextLabel.LocalScript
 	game.CoreGui.stopfuckinglookingatmyshit.Warning.Visible = false
 	
 end
-coroutine.wrap(NPEOO_fake_script)()
-local function TWOSXUF_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(WDDNCVV_fake_script)()
+local function DLOEMR_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -427,8 +427,8 @@ local function TWOSXUF_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(TWOSXUF_fake_script)()
-local function QOSKSI_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(DLOEMR_fake_script)()
+local function GCEUII_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -482,8 +482,8 @@ local function QOSKSI_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(QOSKSI_fake_script)()
-local function ZRBY_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(GCEUII_fake_script)()
+local function NFXXNL_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -503,8 +503,8 @@ local function ZRBY_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(ZRBY_fake_script)()
-local function DEIOOWB_fake_script() -- DumbCunt.LocalScript 
+coroutine.wrap(NFXXNL_fake_script)()
+local function GFQXDVP_fake_script() -- DumbCunt.LocalScript 
 	local script = Instance.new('LocalScript', DumbCunt)
 
 	
@@ -522,4 +522,4 @@ local function DEIOOWB_fake_script() -- DumbCunt.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(DEIOOWB_fake_script)()
+coroutine.wrap(GFQXDVP_fake_script)()
