@@ -1,0 +1,491 @@
+--[[
+	 Gui to Lua Converter
+-- Revamped by:HoIyScript
+--]]
+
+
+
+-- Instances:
+
+local stopfuckinglookingatmyshit = Instance.new("ScreenGui")
+local Warning = Instance.new("Frame")
+local WarningText = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local DumbCuntYouArentGettingMyScripts = Instance.new("Frame")
+local Directions = Instance.new("TextLabel")
+local Divider = Instance.new("TextLabel")
+local FuckYou = Instance.new("TextButton")
+local DumbPieceofShit = Instance.new("TextButton")
+local KillYourself = Instance.new("TextButton")
+
+--[[
+	Properties:
+--]]
+
+stopfuckinglookingatmyshit.Name = "stopfuckinglookingatmyshit"
+stopfuckinglookingatmyshit.Parent = game.CoreGui
+stopfuckinglookingatmyshit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Warning.Name = "Warning"
+Warning.Parent = stopfuckinglookingatmyshit
+Warning.BackgroundColor3 = Color3.new(1, 0, 0)
+Warning.BorderSizePixel = 0
+Warning.Position = UDim2.new(0.333838016, 0, 0.355036855, 0)
+Warning.Size = UDim2.new(0, 423, 0, 164)
+
+WarningText.Name = "WarningText"
+WarningText.Parent = Warning
+WarningText.BackgroundColor3 = Color3.new(1, 1, 1)
+WarningText.BackgroundTransparency = 1
+WarningText.BorderSizePixel = 0
+WarningText.Position = UDim2.new(0.0638297871, 0, 0.0609756112, 0)
+WarningText.Size = UDim2.new(0, 384, 0, 112)
+WarningText.Font = Enum.Font.SourceSans
+WarningText.Text = "I have an account logger attached to this script that tells me the user ID of the person who injected it. If any person other than Savage, Pistolete, or Mams_Spaghetti alts show up, I'm revoking it since the script is an obfuscated loadstring"
+WarningText.TextColor3 = Color3.new(1, 1, 1)
+WarningText.TextScaled = true
+WarningText.TextSize = 14
+WarningText.TextWrapped = true
+
+TextLabel.Parent = Warning
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.678487003, 0, 0.707317054, 0)
+TextLabel.Size = UDim2.new(0, 136, 0, 48)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Opening in (5)"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 20
+
+DumbCuntYouArentGettingMyScripts.Name = "DumbCuntYouArentGettingMyScripts"
+DumbCuntYouArentGettingMyScripts.Parent = stopfuckinglookingatmyshit
+DumbCuntYouArentGettingMyScripts.BackgroundColor3 = Color3.new(1, 0, 0)
+DumbCuntYouArentGettingMyScripts.Position = UDim2.new(0, 0, 0.260442257, 0)
+DumbCuntYouArentGettingMyScripts.Size = UDim2.new(0, 348, 0, 368)
+DumbCuntYouArentGettingMyScripts.Visible = false
+
+Directions.Name = "Directions"
+Directions.Parent = DumbCuntYouArentGettingMyScripts
+Directions.BackgroundColor3 = Color3.new(1, 1, 1)
+Directions.BackgroundTransparency = 1
+Directions.Size = UDim2.new(0, 348, 0, 153)
+Directions.Font = Enum.Font.SourceSans
+Directions.Text = "Directions: Click teleport to the Shipment Place then turn your graphics to ten and wait 1-2 minutes to lower the chances of it breaking. After this, click Build Factory then click Auto Shipment. Then it will start working. If the boxes freeze in the Factory then jump in to kill yourself and click auto shipment again. "
+Directions.TextColor3 = Color3.new(1, 1, 1)
+Directions.TextScaled = true
+Directions.TextSize = 14
+Directions.TextWrapped = true
+
+Divider.Name = "Divider"
+Divider.Parent = DumbCuntYouArentGettingMyScripts
+Divider.BackgroundColor3 = Color3.new(1, 1, 1)
+Divider.BackgroundTransparency = 1
+Divider.Position = UDim2.new(-0.295977026, 0, 0.432065219, 0)
+Divider.Size = UDim2.new(0, 348, 0, 50)
+Divider.Font = Enum.Font.SourceSans
+Divider.Text = "------------------------------------------------------------------------------------------------------------------------------------------"
+Divider.TextColor3 = Color3.new(0, 0, 0)
+Divider.TextSize = 14
+
+FuckYou.Name = "Fuck You"
+FuckYou.Parent = DumbCuntYouArentGettingMyScripts
+FuckYou.BackgroundColor3 = Color3.new(1, 1, 1)
+FuckYou.BorderSizePixel = 0
+FuckYou.Position = UDim2.new(0.043103449, 0, 0.540760875, 0)
+FuckYou.Size = UDim2.new(0, 112, 0, 42)
+FuckYou.Font = Enum.Font.SourceSans
+FuckYou.Text = "Build Factory"
+FuckYou.TextColor3 = Color3.new(1, 0.0666667, 0)
+FuckYou.TextSize = 14
+
+DumbPieceofShit.Name = "Dumb Piece of Shit"
+DumbPieceofShit.Parent = DumbCuntYouArentGettingMyScripts
+DumbPieceofShit.BackgroundColor3 = Color3.new(1, 1, 1)
+DumbPieceofShit.BorderSizePixel = 0
+DumbPieceofShit.Position = UDim2.new(0.488505751, 0, 0.540760875, 0)
+DumbPieceofShit.Size = UDim2.new(0, 112, 0, 42)
+DumbPieceofShit.Font = Enum.Font.SourceSans
+DumbPieceofShit.Text = "Auto-Shipment"
+DumbPieceofShit.TextColor3 = Color3.new(1, 0, 0)
+DumbPieceofShit.TextSize = 14
+
+KillYourself.Name = "Kill Yourself"
+KillYourself.Parent = DumbCuntYouArentGettingMyScripts
+KillYourself.BackgroundColor3 = Color3.new(1, 1, 1)
+KillYourself.BorderSizePixel = 0
+KillYourself.Position = UDim2.new(0.272988528, 0, 0.739130437, 0)
+KillYourself.Size = UDim2.new(0, 112, 0, 42)
+KillYourself.Font = Enum.Font.SourceSans
+KillYourself.Text = "Anti-Afk"
+KillYourself.TextColor3 = Color3.new(1, 0, 0)
+KillYourself.TextSize = 14
+
+--[[
+	 Scripts:
+--]]
+
+local function CAWIH_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	if game.CoreGui.stopfuckinglookingatdex.Warning.Visible == true then
+	script.Parent.Text = "Opening in (5)"
+	wait(1)
+	script.Parent.Text = "Opening in (4)"
+	wait(1)
+	script.Parent.Text = "Opening in (3)"
+	wait(1)
+	script.Parent.Text = "Opening in (2)"
+	wait(1)
+	script.Parent.Text = "Opening in (1)"
+	wait(1)
+	script.Parent.Text = "Opening..."
+	wait(.5)
+	script.Parent.Parent.Parent.DumbCuntYouArentGettingMyScripts.Visible = true
+	end
+end
+coroutine.wrap(CAWIH_fake_script)()
+local function DBMC_fake_script() -- FuckYou.LocalScript 
+	local script = Instance.new('LocalScript', FuckYou)
+
+	
+		function onButtonClicked()
+	--LEFT SIDE
+	FRBLEFTSIDE = Instance.new("Part", workspace)
+	FRBLEFTSIDE.Position = Vector3.new(-967, 5.1, -1072)
+	FRBLEFTSIDE.Size = Vector3.new(22, 5, 2)
+	FRBLEFTSIDE.Anchored = true
+	
+	--RIGHT SIDE
+	FRBRIGHTSIDE = Instance.new("Part", workspace)
+	FRBRIGHTSIDE.Position = Vector3.new(-967, 5.1, -1091)
+	FRBRIGHTSIDE.Size = Vector3.new(22, 5, 2)
+	FRBRIGHTSIDE.Anchored = true
+	
+	--BOTTOM SIDE
+	FRBBOTTOMSIDE = Instance.new("Part", workspace)
+	FRBBOTTOMSIDE.Position = Vector3.new(-957, 5.1, -1080.5)
+	FRBBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
+	FRBBOTTOMSIDE.Anchored = true
+	
+	--TOP SIDE
+	FRBTOPSIDE = Instance.new("Part", workspace)
+	FRBTOPSIDE.Position = Vector3.new(-977, 5.1, -1081.5)
+	FRBTOPSIDE.Size = Vector3.new(2, 5, 17)
+	FRBTOPSIDE.Anchored = true
+	
+	--F LETTER--
+	F1 = Instance.new("Part", workspace)
+	F1.Position = Vector3.new(-977.85, 7.6, -1078.5)
+	F1.Size = Vector3.new(1, 0.1, 0.3)
+	F1.Orientation = Vector3.new(0, -90, 0)
+	F1.Anchored = true
+	F1.BrickColor = BrickColor.new("Really black")
+	--
+	F2 = Instance.new("Part", workspace)
+	F2.Position = Vector3.new(-976.85, 7.6, -1078.5)
+	F2.Orientation = Vector3.new(0, -90, 0)
+	F2.Size = Vector3.new(1, 0.1, 0.3)
+	F2.Anchored = true
+	F2.BrickColor = BrickColor.new("Really black")
+	--
+	F3 = Instance.new("Part", workspace)
+	F3.Position = Vector3.new(-977, 7.6, -1078)
+	F3.Size = Vector3.new(2, 0.1, 0.3)
+	F3.Anchored = true
+	F3.BrickColor = BrickColor.new("Really black")
+	
+	--R LETTER--
+	R1 = Instance.new("Part", workspace)
+	R1.Position = Vector3.new(-977, 7.6, -1080)
+	R1.Size = Vector3.new(2, 0.1, 0.3)
+	R1.Anchored = true
+	R1.BrickColor = BrickColor.new("Really black")
+	--
+	R2 = Instance.new("Part", workspace)
+	R2.Position = Vector3.new(-977.85, 7.6, -1080.5)
+	R2.Size = Vector3.new(1, 0.1, 0.3)
+	R2.Orientation = Vector3.new(0, -90, 0)
+	R2.Anchored = true
+	R2.BrickColor = BrickColor.new("Really black")
+	--
+	R3 = Instance.new("Part", workspace)
+	R3.Position = Vector3.new(-976.85, 7.6, -1080.5)
+	R3.Size = Vector3.new(1, 0.1, 0.3)
+	R3.Orientation = Vector3.new(0, -90, 0)
+	R3.Anchored = true
+	R3.BrickColor = BrickColor.new("Really black")
+	--
+	R4 = Instance.new("Part", workspace)
+	R4.Position = Vector3.new(-977.35, 7.6, -1081)
+	R4.Size = Vector3.new(1.3, 0.1, 0.3)
+	R4.Anchored = true
+	R4.BrickColor = BrickColor.new("Really black")
+	--
+	R5 = Instance.new("Part", workspace)
+	R5.Position = Vector3.new(-976.4, 7.6, -1080.5)
+	R5.Size = Vector3.new(1, 0.1, 0.3)
+	R5.Orientation = Vector3.new(0, -135, 0)
+	R5.Anchored = true
+	R5.BrickColor = BrickColor.new("Really black")
+	
+	--B LETTER--
+	B1 = Instance.new("Part", workspace)
+	B1.Position = Vector3.new(-977, 7.6, -1082)
+	B1.Size = Vector3.new(2, 0.1, 0.3)
+	B1.Anchored = true
+	B1.BrickColor = BrickColor.new("Really black")
+	--
+	B2 = Instance.new("Part", workspace)
+	B2.Position = Vector3.new(-977.85, 7.6, -1082.5)
+	B2.Size = Vector3.new(1, 0.1, 0.3)
+	B2.Orientation = Vector3.new(0, -90, 0)
+	B2.Anchored = true
+	B2.BrickColor = BrickColor.new("Really black")
+	--
+	B3 = Instance.new("Part", workspace)
+	B3.Position = Vector3.new(-976.85, 7.6, -1082.5)
+	B3.Size = Vector3.new(1, 0.1, 0.3)
+	B3.Orientation = Vector3.new(0, -90, 0)
+	B3.Anchored = true
+	B3.BrickColor = BrickColor.new("Really black")
+	--
+	B4 = Instance.new("Part", workspace)
+	B4.Position = Vector3.new(-976.17, 7.6, -1082.5)
+	B4.Size = Vector3.new(1, 0.1, 0.3)
+	B4.Orientation = Vector3.new(0, -90, 0)
+	B4.Anchored = true
+	B4.BrickColor = BrickColor.new("Really black")
+	--
+	B5 = Instance.new("Part", workspace)
+	B5.Position = Vector3.new(-976.67, 7.6, -1083)
+	B5.Size = Vector3.new(1.3, 0.1, 0.3)
+	B5.Anchored = true
+	B5.BrickColor = BrickColor.new("Really black")
+	--
+	B6 = Instance.new("Part", workspace)
+	B6.Position = Vector3.new(-977.35, 7.6, -1083)
+	B6.Size = Vector3.new(1.3, 0.1, 0.3)
+	B6.Anchored = true
+	B6.BrickColor = BrickColor.new("Really black")
+	
+	--ON TOUCH BRICK--
+	local FRBONTOUCH = game.Workspace.DropoffPointCB2.ItemInteract
+	FRBONTOUCH.Position = Vector3.new(-967, 4.6, -1081.5)
+	FRBONTOUCH.Orientation = Vector3.new(0,0,0)
+	FRBONTOUCH.Size = Vector3.new(18, 3.5, 17)
+	FRBONTOUCH.BrickColor = BrickColor.new("Bright blue")
+	--------------------------------------------------------------------
+	
+	--WF--
+	
+	--LEFT SIDE
+	WFLEFTSIDE = Instance.new("Part", workspace)
+	WFLEFTSIDE.Position = Vector3.new(-967, 5.1, -1093)
+	WFLEFTSIDE.Size = Vector3.new(22, 5, 2)
+	WFLEFTSIDE.Anchored = true
+	
+	--RIGHT SIDE
+	WFRIGHTSIDE = Instance.new("Part", workspace)
+	WFRIGHTSIDE.Position = Vector3.new(-967, 5.1, -1112)
+	WFRIGHTSIDE.Size = Vector3.new(22, 5, 2)
+	WFRIGHTSIDE.Anchored = true
+	
+	--BOTTOM SIDE
+	WFBOTTOMSIDE = Instance.new("Part", workspace)
+	WFBOTTOMSIDE.Position = Vector3.new(-957, 5.1, -1101.5)
+	WFBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
+	WFBOTTOMSIDE.Anchored = true
+	
+	--TOP SIDE
+	WFTOPSIDE = Instance.new("Part", workspace)
+	WFTOPSIDE.Position = Vector3.new(-977, 5.1, -1102.5)
+	WFTOPSIDE.Size = Vector3.new(2, 5, 17)
+	WFTOPSIDE.Anchored = true
+	
+	--W LETTER--
+	W1 = Instance.new("Part", workspace)
+	W1.Position = Vector3.new(-977, 7.6, -1100)
+	W1.Size = Vector3.new(2, 0.1, 0.3)
+	W1.Anchored = true
+	W1.BrickColor = BrickColor.new("Really black")
+	--
+	W2 = Instance.new("Part", workspace)
+	W2.Position = Vector3.new(-976.17, 7.6, -1100.5)
+	W2.Orientation = Vector3.new(0, -90, 0)
+	W2.Size = Vector3.new(1, 0.1, 0.3)
+	W2.Anchored = true
+	W2.BrickColor = BrickColor.new("Really black")
+	--
+	W3 = Instance.new("Part", workspace)
+	W3.Position = Vector3.new(-977, 7.6, -1101)
+	W3.Size = Vector3.new(2, 0.1, 0.3)
+	W3.Anchored = true
+	W3.BrickColor = BrickColor.new("Really black")
+	--
+	W4 = Instance.new("Part", workspace)
+	W4.Position = Vector3.new(-976.17, 7.6, -1101.5)
+	W4.Size = Vector3.new(1, 0.1, 0.3)
+	W4.Orientation = Vector3.new(0, -90, 0)
+	W4.Anchored = true
+	W4.BrickColor = BrickColor.new("Really black")
+	--
+	W5 = Instance.new("Part", workspace)
+	W5.Position = Vector3.new(-977, 7.6, -1102)
+	W5.Size = Vector3.new(2, 0.1, 0.3)
+	W5.Anchored = true
+	W5.BrickColor = BrickColor.new("Really black")
+	
+	--F LETTER--
+	F11 = Instance.new("Part", workspace)
+	F11.Position = Vector3.new(-977, 7.6, -1103)
+	F11.Size = Vector3.new(2, 0.1, 0.3)
+	F11.Anchored = true
+	F11.BrickColor = BrickColor.new("Really black")
+	--
+	F22 = Instance.new("Part", workspace)
+	F22.Position = Vector3.new(-976.85, 7.6, -1103.5)
+	F22.Size = Vector3.new(1, 0.1, 0.3)
+	F22.Orientation = Vector3.new(0, -90, 0)
+	F22.Anchored = true
+	F22.BrickColor = BrickColor.new("Really black")
+	--
+	F33 = Instance.new("Part", workspace)
+	F33.Position = Vector3.new(-977.85, 7.6, -1103.5)
+	F33.Size = Vector3.new(1, 0.1, 0.3)
+	F33.Orientation = Vector3.new(0, -90, 0)
+	F33.Anchored = true
+	F33.BrickColor = BrickColor.new("Really black")
+	--
+	--ON TOUCH BRICK--
+	local WFONTOUCH = game.Workspace.DropoffPointBoA.ItemInteract
+	WFONTOUCH.Position = Vector3.new(-967, 4.6, -1102.5)
+	WFONTOUCH.Orientation = Vector3.new(0,0,0)
+	WFONTOUCH.Size = Vector3.new(18, 3.5, 17)
+	WFONTOUCH.BrickColor = BrickColor.new("Bright blue")
+	
+	
+	--DONUT--
+	
+	DONUTLOGO = Instance.new("Part", workspace)
+	DONUTLOGO.Position = Vector3.new(-955, 7.65, -1092)
+	DONUTLOGO.Size = Vector3.new(2, 0.1, 2)
+	DONUTLOGO.Orientation = Vector3.new(0, -90, 0)
+	DONUTLOGO.Anchored = true
+	DONUTLOGO.BrickColor = BrickColor.new("Salmon")
+	wait(.1)
+	DONUTDECAL = Instance.new("Decal",workspace)
+	DONUTDECAL.Texture = "http://www.roblox.com/asset/?id=2098260397"
+	DONUTDECAL.Parent = DONUTLOGO
+	DONUTDECAL.Face = "Top"
+	
+	--LEFT SIDE
+	DONUTLEFTSIDE = Instance.new("Part", workspace)
+	DONUTLEFTSIDE.Position = Vector3.new(-945, 5.1, -1081)
+	DONUTLEFTSIDE.Size = Vector3.new(22, 5, 2)
+	DONUTLEFTSIDE.Anchored = true
+	
+	--RIGHT SIDE
+	DONUTRIGHTSIDE = Instance.new("Part", workspace)
+	DONUTRIGHTSIDE.Position = Vector3.new(-945, 5.1, -1100)
+	DONUTRIGHTSIDE.Size = Vector3.new(22, 5, 2)
+	DONUTRIGHTSIDE.Anchored = true
+	
+	--BOTTOM SIDE
+	DONUTBOTTOMSIDE = Instance.new("Part", workspace)
+	DONUTBOTTOMSIDE.Position = Vector3.new(-935, 5.1, -1089.5)
+	DONUTBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
+	DONUTBOTTOMSIDE.Anchored = true
+	
+	--TOP SIDE
+	DONUTTOPSIDE = Instance.new("Part", workspace)
+	DONUTTOPSIDE.Position = Vector3.new(-955, 5.1, -1090.5)
+	DONUTTOPSIDE.Size = Vector3.new(2, 5, 17)
+	DONUTTOPSIDE.Anchored = true
+	
+	--ON TOUCH BRICK--
+	local DONUTONTOUCH = game.Workspace.DropoffPointDonut.ItemInteract
+	DONUTONTOUCH.Position = Vector3.new(-945, 4.6, -1090.5)
+	DONUTONTOUCH.Orientation = Vector3.new(0,0,0)
+	DONUTONTOUCH.Size = Vector3.new(18, 3.5, 17)
+	DONUTONTOUCH.BrickColor = BrickColor.new("Bright blue")
+		end
+		script.Parent.MouseButton1Down:connect(onButtonClicked)
+	
+end
+coroutine.wrap(DBMC_fake_script)()
+local function XHUN_fake_script() -- DumbPieceofShit.LocalScript 
+	local script = Instance.new('LocalScript', DumbPieceofShit)
+
+	
+		function onButtonClicked()
+	game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
+	wait(.1)
+	game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
+	wait(0.1)
+	
+	while true do wait(1)
+	    local count = 0
+	    local children = workspace:GetChildren()
+	    for i, child in ipairs(children) do
+	        if child.Name == "Shipment_Box" then
+	            count = count + 1
+	        end
+	    end
+	    if count > 4 then
+	        local text = game:GetService("Players").LocalPlayer.PlayerGui.CrateDelivery.TextLabel.Text
+	        message = text
+	        if string.find(message, "Wells") then
+	            local descendants = game.Workspace:GetChildren()
+	        	for index, descendant in pairs(descendants) do
+	            	if descendant.Name == "Shipment_Box" then
+	            		descendant.Position = Vector3.new(-967, 5, -1102.5)
+	            	end
+	        	end
+	        elseif string.find(message, "Donut") then
+	            local descendants = game.Workspace:GetChildren()
+	        	for index, descendant in pairs(descendants) do
+	        		if descendant.Name == "Shipment_Box" then
+	        			descendant.Position = Vector3.new(-945, 4.6, -1090.5)
+	        		end
+	        	end
+	        elseif string.find(message, "Federal") then
+	            local descendants = game.Workspace:GetChildren()
+	            for index, descendant in pairs(descendants) do
+	        		if descendant.Name == "Shipment_Box" then
+	        		   descendant.Position = Vector3.new(-967, 4.6, -1081.5)
+	        		end
+	            end
+	        end
+	    elseif count == 0 then
+	        game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
+	        wait(.1)
+	        game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
+	        wait(0.1)
+	    end
+	end
+		end
+		script.Parent.MouseButton1Down:connect(onButtonClicked)
+	
+end
+coroutine.wrap(XHUN_fake_script)()
+local function PYJLMMT_fake_script() -- KillYourself.LocalScript 
+	local script = Instance.new('LocalScript', KillYourself)
+
+	
+		function onButtonClicked()
+	local GC = getconnections or get_signal_cons
+			if GC then
+				for i,v in pairs(GC(game:GetService('Players').LocalPlayer.Idled)) do
+					if v["Disable"] then
+						v["Disable"](v)
+					elseif v["Disconnect"] then
+						v["Disconnect"](v)
+					end
+				end
+		end
+		end
+		
+		script.Parent.MouseButton1Down:connect(onButtonClicked)
+	
+end
+coroutine.wrap(PYJLMMT_fake_script)()
