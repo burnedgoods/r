@@ -124,10 +124,10 @@ KillYourself.TextSize = 14
 	 Scripts:
 --]]
 
-local function CAWIH_fake_script() -- TextLabel.LocalScript 
+local function IFFBJ_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
-	if game.CoreGui.stopfuckinglookingatdex.Warning.Visible == true then
+	
 	script.Parent.Text = "Opening in (5)"
 	wait(1)
 	script.Parent.Text = "Opening in (4)"
@@ -141,10 +141,10 @@ local function CAWIH_fake_script() -- TextLabel.LocalScript
 	script.Parent.Text = "Opening..."
 	wait(.5)
 	script.Parent.Parent.Parent.DumbCuntYouArentGettingMyScripts.Visible = true
-	end
+	
 end
-coroutine.wrap(CAWIH_fake_script)()
-local function DBMC_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(IFFBJ_fake_script)()
+local function BKOSB_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -412,8 +412,8 @@ local function DBMC_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(DBMC_fake_script)()
-local function XHUN_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(BKOSB_fake_script)()
+local function HYEZVOK_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -467,8 +467,8 @@ local function XHUN_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(XHUN_fake_script)()
-local function PYJLMMT_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(HYEZVOK_fake_script)()
+local function VWKEXO_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -488,4 +488,4 @@ local function PYJLMMT_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(PYJLMMT_fake_script)()
+coroutine.wrap(VWKEXO_fake_script)()
