@@ -124,7 +124,7 @@ KillYourself.TextSize = 14
 	 Scripts:
 --]]
 
-local function NPAY_fake_script() -- TextLabel.LocalScript 
+local function VKQPFW_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -141,11 +141,12 @@ local function NPAY_fake_script() -- TextLabel.LocalScript
 	script.Parent.Text = "Opening..."
 	wait(.5)
 	script.Parent.Parent.Parent.DumbCuntYouArentGettingMyScripts.Visible = true
+	wait(.1)
 	game.CoreGui.stopfuckinglookingatmyshit.Warning.Visible = false
 	
 end
-coroutine.wrap(NPAY_fake_script)()
-local function KVSW_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(VKQPFW_fake_script)()
+local function CFQFXI_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -413,8 +414,8 @@ local function KVSW_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(KVSW_fake_script)()
-local function MRJJLH_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(CFQFXI_fake_script)()
+local function TRNECC_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -468,8 +469,8 @@ local function MRJJLH_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(MRJJLH_fake_script)()
-local function LVSWF_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(TRNECC_fake_script)()
+local function SHEI_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -489,4 +490,4 @@ local function LVSWF_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(LVSWF_fake_script)()
+coroutine.wrap(SHEI_fake_script)()
