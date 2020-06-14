@@ -124,7 +124,7 @@ KillYourself.TextSize = 14
 	 Scripts:
 --]]
 
-local function IFFBJ_fake_script() -- TextLabel.LocalScript 
+local function MXFVQU_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	
@@ -141,10 +141,11 @@ local function IFFBJ_fake_script() -- TextLabel.LocalScript
 	script.Parent.Text = "Opening..."
 	wait(.5)
 	script.Parent.Parent.Parent.DumbCuntYouArentGettingMyScripts.Visible = true
+	script.Parent.Parent.Visible = false
 	
 end
-coroutine.wrap(IFFBJ_fake_script)()
-local function BKOSB_fake_script() -- FuckYou.LocalScript 
+coroutine.wrap(MXFVQU_fake_script)()
+local function BRCX_fake_script() -- FuckYou.LocalScript 
 	local script = Instance.new('LocalScript', FuckYou)
 
 	
@@ -412,8 +413,8 @@ local function BKOSB_fake_script() -- FuckYou.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(BKOSB_fake_script)()
-local function HYEZVOK_fake_script() -- DumbPieceofShit.LocalScript 
+coroutine.wrap(BRCX_fake_script)()
+local function SAASJIG_fake_script() -- DumbPieceofShit.LocalScript 
 	local script = Instance.new('LocalScript', DumbPieceofShit)
 
 	
@@ -467,8 +468,8 @@ local function HYEZVOK_fake_script() -- DumbPieceofShit.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(HYEZVOK_fake_script)()
-local function VWKEXO_fake_script() -- KillYourself.LocalScript 
+coroutine.wrap(SAASJIG_fake_script)()
+local function VOPLV_fake_script() -- KillYourself.LocalScript 
 	local script = Instance.new('LocalScript', KillYourself)
 
 	
@@ -488,4 +489,4 @@ local function VWKEXO_fake_script() -- KillYourself.LocalScript
 		script.Parent.MouseButton1Down:connect(onButtonClicked)
 	
 end
-coroutine.wrap(VWKEXO_fake_script)()
+coroutine.wrap(VOPLV_fake_script)()
