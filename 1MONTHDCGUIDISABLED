@@ -1,0 +1,2017 @@
+-- ENDS AUGUST 1ST, 2020 IF HE DIDNT PAY THE REST OF THE 20$
+
+
+-- Instances:
+
+local LEGUI = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local ButtonsFrame = Instance.new("Frame")
+local TopTitle = Instance.new("TextLabel")
+local VehicleManipulation = Instance.new("TextButton")
+local CharacterManipulation = Instance.new("TextButton")
+local MoneyManipulation = Instance.new("TextButton")
+local WeaponManipulation = Instance.new("TextButton")
+local MiscellaneousManipulation = Instance.new("TextButton")
+local RobberyManipulation = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local CharacterManipulationTab = Instance.new("Frame")
+local TopTitle_2 = Instance.new("TextLabel")
+local SpeedBypass = Instance.new("TextButton")
+local Back = Instance.new("TextButton")
+local FlyBypass = Instance.new("TextButton")
+local ServersidedNoFace = Instance.new("TextButton")
+local ServersidedNoHats = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local MtoHealKeybind = Instance.new("TextButton")
+local AutoHeal = Instance.new("TextButton")
+local VehicleManipulationTab = Instance.new("Frame")
+local TopTitle_3 = Instance.new("TextLabel")
+local VehicleFlyInstructions = Instance.new("TextButton")
+local Back_2 = Instance.new("TextButton")
+local RemotelyBuyACarBomb = Instance.new("TextButton")
+local CarDoorControl = Instance.new("Frame")
+local LeftFront = Instance.new("TextButton")
+local RightFront = Instance.new("TextButton")
+local RightBack = Instance.new("TextButton")
+local LeftBack = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local UnlockAllCarDoors = Instance.new("TextButton")
+local RemotelySprayCar = Instance.new("TextButton")
+local ToPage2 = Instance.new("TextButton")
+local MoneyManipulationTab = Instance.new("Frame")
+local TopTitle_4 = Instance.new("TextLabel")
+local Back_3 = Instance.new("TextButton")
+local BringATM = Instance.new("TextButton")
+local BringDroppedCash = Instance.new("TextButton")
+local WeaponManipulationTab = Instance.new("Frame")
+local TopTitle_5 = Instance.new("TextLabel")
+local Back_4 = Instance.new("TextButton")
+local AutomaticBarret50Cal = Instance.new("TextButton")
+local Automatic44Magnum = Instance.new("TextButton")
+local FastRPG7 = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+local BuyBarret50CalM4A1 = Instance.new("TextButton")
+local MiscellaneousManipulationTab = Instance.new("Frame")
+local TopTitle_6 = Instance.new("TextLabel")
+local Back_5 = Instance.new("TextButton")
+local BountyJob = Instance.new("TextButton")
+local DiedMessage = Instance.new("TextBox")
+local RobberyManipulationTab = Instance.new("Frame")
+local TopTitle_7 = Instance.new("TextLabel")
+local Back_6 = Instance.new("TextButton")
+local AntiAFKKick = Instance.new("TextButton")
+local ToWFCodeSeat = Instance.new("TextButton")
+local ToWFVault = Instance.new("TextButton")
+local AutoRob = Instance.new("TextButton")
+local VehicleManipulationTab2 = Instance.new("Frame")
+local TopTitle_8 = Instance.new("TextLabel")
+local Back_7 = Instance.new("TextButton")
+local ChangeAllCarsHeighttoMax = Instance.new("TextButton")
+local GiveAllCarsBomb = Instance.new("TextButton")
+local OpenedFrame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local ClosedFrame = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local AutoExecute = Instance.new("Folder")
+
+--[[
+	Properties:
+--]]
+
+LEGUI.Name = "LEGUI"
+LEGUI.Parent = game.CoreGui
+LEGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = LEGUI
+MainFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+MainFrame.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+MainFrame.BorderSizePixel = 10
+MainFrame.Position = UDim2.new(0.00705218641, 0, 0.325419068, 0)
+MainFrame.Size = UDim2.new(0, 238, 0, 244)
+MainFrame.Visible = false
+
+ButtonsFrame.Name = "Buttons Frame"
+ButtonsFrame.Parent = MainFrame
+ButtonsFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+ButtonsFrame.BorderColor3 = Color3.new(1, 1, 1)
+ButtonsFrame.BorderSizePixel = 5
+ButtonsFrame.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+ButtonsFrame.Size = UDim2.new(0, 205, 0, 216)
+
+TopTitle.Name = "TopTitle"
+TopTitle.Parent = ButtonsFrame
+TopTitle.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle.BorderSizePixel = 0
+TopTitle.Position = UDim2.new(0.0479431488, 0, -0.0747527629, 0)
+TopTitle.Size = UDim2.new(0, 96, 0, 25)
+TopTitle.Font = Enum.Font.Code
+TopTitle.Text = "Main"
+TopTitle.TextColor3 = Color3.new(1, 1, 1)
+TopTitle.TextSize = 14
+
+VehicleManipulation.Name = "Vehicle Manipulation"
+VehicleManipulation.Parent = ButtonsFrame
+VehicleManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+VehicleManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+VehicleManipulation.BorderSizePixel = 3
+VehicleManipulation.Position = UDim2.new(0.550230205, 0, 0.119469665, 0)
+VehicleManipulation.Size = UDim2.new(0, 85, 0, 30)
+VehicleManipulation.Font = Enum.Font.Code
+VehicleManipulation.Text = "Vehicle Manipulation"
+VehicleManipulation.TextColor3 = Color3.new(1, 1, 1)
+VehicleManipulation.TextScaled = true
+VehicleManipulation.TextSize = 14
+VehicleManipulation.TextWrapped = true
+
+CharacterManipulation.Name = "Character Manipulation"
+CharacterManipulation.Parent = ButtonsFrame
+CharacterManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+CharacterManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+CharacterManipulation.BorderSizePixel = 3
+CharacterManipulation.Position = UDim2.new(0.0477911606, 0, 0.122770928, 0)
+CharacterManipulation.Size = UDim2.new(0, 90, 0, 30)
+CharacterManipulation.Font = Enum.Font.Code
+CharacterManipulation.Text = "Character Manipulation"
+CharacterManipulation.TextColor3 = Color3.new(1, 1, 1)
+CharacterManipulation.TextScaled = true
+CharacterManipulation.TextSize = 14
+CharacterManipulation.TextWrapped = true
+
+MoneyManipulation.Name = "Money Manipulation"
+MoneyManipulation.Parent = ButtonsFrame
+MoneyManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+MoneyManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+MoneyManipulation.BorderSizePixel = 3
+MoneyManipulation.Position = UDim2.new(0.0477911606, 0, 0.340556562, 0)
+MoneyManipulation.Size = UDim2.new(0, 90, 0, 30)
+MoneyManipulation.Font = Enum.Font.Code
+MoneyManipulation.Text = "Money Manipulation"
+MoneyManipulation.TextColor3 = Color3.new(1, 1, 1)
+MoneyManipulation.TextScaled = true
+MoneyManipulation.TextSize = 14
+MoneyManipulation.TextWrapped = true
+
+WeaponManipulation.Name = "Weapon Manipulation"
+WeaponManipulation.Parent = ButtonsFrame
+WeaponManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+WeaponManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+WeaponManipulation.BorderSizePixel = 3
+WeaponManipulation.Position = UDim2.new(0.550230205, 0, 0.340556562, 0)
+WeaponManipulation.Size = UDim2.new(0, 84, 0, 30)
+WeaponManipulation.Font = Enum.Font.Code
+WeaponManipulation.Text = "Weapon Manipulation"
+WeaponManipulation.TextColor3 = Color3.new(1, 1, 1)
+WeaponManipulation.TextScaled = true
+WeaponManipulation.TextSize = 14
+WeaponManipulation.TextWrapped = true
+
+MiscellaneousManipulation.Name = "Miscellaneous Manipulation"
+MiscellaneousManipulation.Parent = ButtonsFrame
+MiscellaneousManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+MiscellaneousManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+MiscellaneousManipulation.BorderSizePixel = 3
+MiscellaneousManipulation.Position = UDim2.new(0.540474117, 0, 0.558149159, 0)
+MiscellaneousManipulation.Size = UDim2.new(0, 86, 0, 31)
+MiscellaneousManipulation.Font = Enum.Font.Code
+MiscellaneousManipulation.Text = "Miscellaneous Manipulation"
+MiscellaneousManipulation.TextColor3 = Color3.new(1, 1, 1)
+MiscellaneousManipulation.TextScaled = true
+MiscellaneousManipulation.TextSize = 14
+MiscellaneousManipulation.TextWrapped = true
+
+RobberyManipulation.Name = "Robbery Manipulation"
+RobberyManipulation.Parent = ButtonsFrame
+RobberyManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
+RobberyManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+RobberyManipulation.BorderSizePixel = 3
+RobberyManipulation.Position = UDim2.new(0.0430651046, 0, 0.558149159, 0)
+RobberyManipulation.Size = UDim2.new(0, 89, 0, 31)
+RobberyManipulation.Font = Enum.Font.Code
+RobberyManipulation.Text = "Robbery Manipulation"
+RobberyManipulation.TextColor3 = Color3.new(1, 1, 1)
+RobberyManipulation.TextScaled = true
+RobberyManipulation.TextSize = 14
+RobberyManipulation.TextWrapped = true
+
+TextLabel.Parent = ButtonsFrame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.00975609757, 0, 0.854445398, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 31)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "UI and Scripts by burnedgoods#3209"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 13
+TextLabel.TextWrapped = true
+
+CharacterManipulationTab.Name = "Character Manipulation Tab"
+CharacterManipulationTab.Parent = MainFrame
+CharacterManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+CharacterManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+CharacterManipulationTab.BorderSizePixel = 5
+CharacterManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+CharacterManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+CharacterManipulationTab.Visible = false
+
+TopTitle_2.Name = "TopTitle"
+TopTitle_2.Parent = CharacterManipulationTab
+TopTitle_2.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_2.BorderSizePixel = 0
+TopTitle_2.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_2.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_2.Font = Enum.Font.Code
+TopTitle_2.Text = "Character Manipulation"
+TopTitle_2.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_2.TextSize = 14
+
+SpeedBypass.Name = "Speed Bypass"
+SpeedBypass.Parent = CharacterManipulationTab
+SpeedBypass.BackgroundColor3 = Color3.new(0, 0, 0)
+SpeedBypass.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+SpeedBypass.BorderSizePixel = 3
+SpeedBypass.Position = UDim2.new(0.116083801, 0, 0.0996228009, 0)
+SpeedBypass.Size = UDim2.new(0, 67, 0, 30)
+SpeedBypass.Font = Enum.Font.Code
+SpeedBypass.Text = "Walkspeed Bypass"
+SpeedBypass.TextColor3 = Color3.new(1, 1, 1)
+SpeedBypass.TextScaled = true
+SpeedBypass.TextSize = 14
+SpeedBypass.TextWrapped = true
+
+Back.Name = "Back"
+Back.Parent = CharacterManipulationTab
+Back.BackgroundColor3 = Color3.new(0, 0, 0)
+Back.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back.BorderSizePixel = 3
+Back.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back.Size = UDim2.new(0, 48, 0, 15)
+Back.Font = Enum.Font.Code
+Back.Text = "Back"
+Back.TextColor3 = Color3.new(1, 1, 1)
+Back.TextScaled = true
+Back.TextSize = 14
+Back.TextWrapped = true
+
+FlyBypass.Name = "Fly Bypass"
+FlyBypass.Parent = CharacterManipulationTab
+FlyBypass.BackgroundColor3 = Color3.new(0, 0, 0)
+FlyBypass.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+FlyBypass.BorderSizePixel = 3
+FlyBypass.Position = UDim2.new(0.55510819, 0, 0.0996228009, 0)
+FlyBypass.Size = UDim2.new(0, 67, 0, 30)
+FlyBypass.Font = Enum.Font.Code
+FlyBypass.Text = "Fly Bypass"
+FlyBypass.TextColor3 = Color3.new(1, 1, 1)
+FlyBypass.TextScaled = true
+FlyBypass.TextSize = 14
+FlyBypass.TextWrapped = true
+
+ServersidedNoFace.Name = "Serversided No Face"
+ServersidedNoFace.Parent = CharacterManipulationTab
+ServersidedNoFace.BackgroundColor3 = Color3.new(0, 0, 0)
+ServersidedNoFace.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ServersidedNoFace.BorderSizePixel = 3
+ServersidedNoFace.Position = UDim2.new(0.55510819, 0, 0.335733891, 0)
+ServersidedNoFace.Size = UDim2.new(0, 67, 0, 30)
+ServersidedNoFace.Font = Enum.Font.Code
+ServersidedNoFace.Text = "Serversided Remove Face"
+ServersidedNoFace.TextColor3 = Color3.new(1, 1, 1)
+ServersidedNoFace.TextScaled = true
+ServersidedNoFace.TextSize = 14
+ServersidedNoFace.TextWrapped = true
+
+ServersidedNoHats.Name = "Serversided No Hats"
+ServersidedNoHats.Parent = CharacterManipulationTab
+ServersidedNoHats.BackgroundColor3 = Color3.new(0, 0, 0)
+ServersidedNoHats.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ServersidedNoHats.BorderSizePixel = 3
+ServersidedNoHats.Position = UDim2.new(0.116083801, 0, 0.335733891, 0)
+ServersidedNoHats.Size = UDim2.new(0, 67, 0, 30)
+ServersidedNoHats.Font = Enum.Font.Code
+ServersidedNoHats.Text = "Serversided Remove Hats"
+ServersidedNoHats.TextColor3 = Color3.new(1, 1, 1)
+ServersidedNoHats.TextScaled = true
+ServersidedNoHats.TextSize = 14
+ServersidedNoHats.TextWrapped = true
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = CharacterManipulationTab
+InfiniteYield.BackgroundColor3 = Color3.new(0, 0, 0)
+InfiniteYield.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+InfiniteYield.BorderSizePixel = 3
+InfiniteYield.Position = UDim2.new(0.116083808, 0, 0.544067264, 0)
+InfiniteYield.Size = UDim2.new(0, 67, 0, 30)
+InfiniteYield.Font = Enum.Font.Code
+InfiniteYield.Text = "Infinite Yield Loadstring"
+InfiniteYield.TextColor3 = Color3.new(1, 1, 1)
+InfiniteYield.TextScaled = true
+InfiniteYield.TextSize = 14
+InfiniteYield.TextWrapped = true
+
+MtoHealKeybind.Name = "M to Heal Keybind"
+MtoHealKeybind.Parent = CharacterManipulationTab
+MtoHealKeybind.BackgroundColor3 = Color3.new(0, 0, 0)
+MtoHealKeybind.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+MtoHealKeybind.BorderSizePixel = 3
+MtoHealKeybind.Position = UDim2.new(0.55510819, 0, 0.544067264, 0)
+MtoHealKeybind.Size = UDim2.new(0, 67, 0, 30)
+MtoHealKeybind.Font = Enum.Font.Code
+MtoHealKeybind.Text = "M to Heal Keybind"
+MtoHealKeybind.TextColor3 = Color3.new(1, 1, 1)
+MtoHealKeybind.TextScaled = true
+MtoHealKeybind.TextSize = 14
+MtoHealKeybind.TextWrapped = true
+
+AutoHeal.Name = "Auto Heal"
+AutoHeal.Parent = CharacterManipulationTab
+AutoHeal.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoHeal.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+AutoHeal.BorderSizePixel = 3
+AutoHeal.Position = UDim2.new(0.55510819, 0, 0.761659861, 0)
+AutoHeal.Size = UDim2.new(0, 67, 0, 45)
+AutoHeal.Font = Enum.Font.Code
+AutoHeal.Text = "Auto Heal"
+AutoHeal.TextColor3 = Color3.new(1, 1, 1)
+AutoHeal.TextScaled = true
+AutoHeal.TextSize = 14
+AutoHeal.TextWrapped = true
+
+VehicleManipulationTab.Name = "Vehicle Manipulation Tab"
+VehicleManipulationTab.Parent = MainFrame
+VehicleManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+VehicleManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+VehicleManipulationTab.BorderSizePixel = 5
+VehicleManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+VehicleManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+VehicleManipulationTab.Visible = false
+
+TopTitle_3.Name = "TopTitle"
+TopTitle_3.Parent = VehicleManipulationTab
+TopTitle_3.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_3.BorderSizePixel = 0
+TopTitle_3.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_3.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_3.Font = Enum.Font.Code
+TopTitle_3.Text = "Vehicle Manipulation"
+TopTitle_3.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_3.TextSize = 14
+
+VehicleFlyInstructions.Name = "Vehicle Fly Instructions"
+VehicleFlyInstructions.Parent = VehicleManipulationTab
+VehicleFlyInstructions.BackgroundColor3 = Color3.new(0, 0, 0)
+VehicleFlyInstructions.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+VehicleFlyInstructions.BorderSizePixel = 3
+VehicleFlyInstructions.Position = UDim2.new(0.116083808, 0, 0.0996227935, 0)
+VehicleFlyInstructions.Size = UDim2.new(0, 173, 0, 48)
+VehicleFlyInstructions.Font = Enum.Font.Code
+VehicleFlyInstructions.Text = "To Vehicle Fly,  click the Infinite Yield Button in Character Manipulation and say \";vfly\"."
+VehicleFlyInstructions.TextColor3 = Color3.new(1, 1, 1)
+VehicleFlyInstructions.TextScaled = true
+VehicleFlyInstructions.TextSize = 14
+VehicleFlyInstructions.TextWrapped = true
+
+Back_2.Name = "Back"
+Back_2.Parent = VehicleManipulationTab
+Back_2.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_2.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_2.BorderSizePixel = 3
+Back_2.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_2.Size = UDim2.new(0, 48, 0, 15)
+Back_2.Font = Enum.Font.Code
+Back_2.Text = "Back"
+Back_2.TextColor3 = Color3.new(1, 1, 1)
+Back_2.TextScaled = true
+Back_2.TextSize = 14
+Back_2.TextWrapped = true
+
+RemotelyBuyACarBomb.Name = "Remotely Buy  A Car Bomb"
+RemotelyBuyACarBomb.Parent = VehicleManipulationTab
+RemotelyBuyACarBomb.BackgroundColor3 = Color3.new(0, 0, 0)
+RemotelyBuyACarBomb.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+RemotelyBuyACarBomb.BorderSizePixel = 3
+RemotelyBuyACarBomb.Position = UDim2.new(0.0673033223, 0, 0.400548726, 0)
+RemotelyBuyACarBomb.Size = UDim2.new(0, 67, 0, 38)
+RemotelyBuyACarBomb.Font = Enum.Font.Code
+RemotelyBuyACarBomb.Text = "Remotely Buy  A Car Bomb"
+RemotelyBuyACarBomb.TextColor3 = Color3.new(1, 1, 1)
+RemotelyBuyACarBomb.TextScaled = true
+RemotelyBuyACarBomb.TextSize = 14
+RemotelyBuyACarBomb.TextWrapped = true
+
+CarDoorControl.Name = "Car Door Control"
+CarDoorControl.Parent = VehicleManipulationTab
+CarDoorControl.BackgroundColor3 = Color3.new(0, 0, 0)
+CarDoorControl.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+CarDoorControl.BorderSizePixel = 3
+CarDoorControl.Position = UDim2.new(0.442913085, 0, 0.671296299, 0)
+CarDoorControl.Size = UDim2.new(0, 99, 0, 64)
+
+LeftFront.Name = "Left Front"
+LeftFront.Parent = CarDoorControl
+LeftFront.BackgroundColor3 = Color3.new(0, 0, 0)
+LeftFront.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+LeftFront.Size = UDim2.new(0, 46, 0, 32)
+LeftFront.Font = Enum.Font.Code
+LeftFront.Text = "Left Front Door"
+LeftFront.TextColor3 = Color3.new(1, 1, 1)
+LeftFront.TextScaled = true
+LeftFront.TextSize = 14
+LeftFront.TextWrapped = true
+
+RightFront.Name = "Right Front"
+RightFront.Parent = CarDoorControl
+RightFront.BackgroundColor3 = Color3.new(0, 0, 0)
+RightFront.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+RightFront.Position = UDim2.new(0.53061229, 0, 0, 0)
+RightFront.Size = UDim2.new(0, 46, 0, 32)
+RightFront.Font = Enum.Font.Code
+RightFront.Text = "Right Front Door"
+RightFront.TextColor3 = Color3.new(1, 1, 1)
+RightFront.TextScaled = true
+RightFront.TextSize = 14
+RightFront.TextWrapped = true
+
+RightBack.Name = "Right Back "
+RightBack.Parent = CarDoorControl
+RightBack.BackgroundColor3 = Color3.new(0, 0, 0)
+RightBack.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+RightBack.Position = UDim2.new(0.53061229, 0, 0.5, 0)
+RightBack.Size = UDim2.new(0, 46, 0, 32)
+RightBack.Font = Enum.Font.Code
+RightBack.Text = "Right Back Door"
+RightBack.TextColor3 = Color3.new(1, 1, 1)
+RightBack.TextScaled = true
+RightBack.TextSize = 14
+RightBack.TextWrapped = true
+
+LeftBack.Name = "Left Back"
+LeftBack.Parent = CarDoorControl
+LeftBack.BackgroundColor3 = Color3.new(0, 0, 0)
+LeftBack.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+LeftBack.Position = UDim2.new(5.96046448e-08, 0, 0.5, 0)
+LeftBack.Size = UDim2.new(0, 46, 0, 32)
+LeftBack.Font = Enum.Font.Code
+LeftBack.Text = "Left Back Door"
+LeftBack.TextColor3 = Color3.new(1, 1, 1)
+LeftBack.TextScaled = true
+LeftBack.TextSize = 14
+LeftBack.TextWrapped = true
+
+TextLabel_2.Parent = CarDoorControl
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.Position = UDim2.new(-0.101010099, 0, -0.234375, 0)
+TextLabel_2.Size = UDim2.new(0, 124, 0, 15)
+TextLabel_2.Font = Enum.Font.Code
+TextLabel_2.Text = "All Car Doors Control"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+UnlockAllCarDoors.Name = "Unlock All Car Doors"
+UnlockAllCarDoors.Parent = VehicleManipulationTab
+UnlockAllCarDoors.BackgroundColor3 = Color3.new(0, 0, 0)
+UnlockAllCarDoors.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+UnlockAllCarDoors.BorderSizePixel = 3
+UnlockAllCarDoors.Position = UDim2.new(0.0429130793, 0, 0.645919085, 0)
+UnlockAllCarDoors.Size = UDim2.new(0, 67, 0, 38)
+UnlockAllCarDoors.Font = Enum.Font.Code
+UnlockAllCarDoors.Text = "Unlock All Car Doors"
+UnlockAllCarDoors.TextColor3 = Color3.new(1, 1, 1)
+UnlockAllCarDoors.TextScaled = true
+UnlockAllCarDoors.TextSize = 14
+UnlockAllCarDoors.TextWrapped = true
+
+RemotelySprayCar.Name = "Remotely Spray Car"
+RemotelySprayCar.Parent = VehicleManipulationTab
+RemotelySprayCar.BackgroundColor3 = Color3.new(0, 0, 0)
+RemotelySprayCar.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+RemotelySprayCar.BorderSizePixel = 3
+RemotelySprayCar.Position = UDim2.new(0.442913055, 0, 0.400548726, 0)
+RemotelySprayCar.Size = UDim2.new(0, 67, 0, 38)
+RemotelySprayCar.Font = Enum.Font.Code
+RemotelySprayCar.Text = "Remotely Spray Car"
+RemotelySprayCar.TextColor3 = Color3.new(1, 1, 1)
+RemotelySprayCar.TextScaled = true
+RemotelySprayCar.TextSize = 14
+RemotelySprayCar.TextWrapped = true
+
+ToPage2.Name = "ToPage2"
+ToPage2.Parent = VehicleManipulationTab
+ToPage2.BackgroundColor3 = Color3.new(0, 0, 0)
+ToPage2.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ToPage2.BorderSizePixel = 3
+ToPage2.Position = UDim2.new(0.813644767, 0, 0.400548726, 0)
+ToPage2.Size = UDim2.new(0, 30, 0, 38)
+ToPage2.Font = Enum.Font.Code
+ToPage2.Text = "Page 2"
+ToPage2.TextColor3 = Color3.new(1, 1, 1)
+ToPage2.TextScaled = true
+ToPage2.TextSize = 14
+ToPage2.TextWrapped = true
+
+MoneyManipulationTab.Name = "Money Manipulation Tab"
+MoneyManipulationTab.Parent = MainFrame
+MoneyManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+MoneyManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+MoneyManipulationTab.BorderSizePixel = 5
+MoneyManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+MoneyManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+MoneyManipulationTab.Visible = false
+
+TopTitle_4.Name = "TopTitle"
+TopTitle_4.Parent = MoneyManipulationTab
+TopTitle_4.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_4.BorderSizePixel = 0
+TopTitle_4.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_4.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_4.Font = Enum.Font.Code
+TopTitle_4.Text = "Money Manipulation"
+TopTitle_4.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_4.TextSize = 14
+
+Back_3.Name = "Back"
+Back_3.Parent = MoneyManipulationTab
+Back_3.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_3.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_3.BorderSizePixel = 3
+Back_3.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_3.Size = UDim2.new(0, 48, 0, 15)
+Back_3.Font = Enum.Font.Code
+Back_3.Text = "Back"
+Back_3.TextColor3 = Color3.new(1, 1, 1)
+Back_3.TextScaled = true
+Back_3.TextSize = 14
+Back_3.TextWrapped = true
+
+BringATM.Name = "Bring ATM"
+BringATM.Parent = MoneyManipulationTab
+BringATM.BackgroundColor3 = Color3.new(0, 0, 0)
+BringATM.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+BringATM.BorderSizePixel = 3
+BringATM.Position = UDim2.new(0.0721813738, 0, 0.0996228009, 0)
+BringATM.Size = UDim2.new(0, 67, 0, 30)
+BringATM.Font = Enum.Font.Code
+BringATM.Text = "Bring ATM"
+BringATM.TextColor3 = Color3.new(1, 1, 1)
+BringATM.TextScaled = true
+BringATM.TextSize = 14
+BringATM.TextWrapped = true
+
+BringDroppedCash.Name = "Bring Dropped Cash"
+BringDroppedCash.Parent = MoneyManipulationTab
+BringDroppedCash.BackgroundColor3 = Color3.new(0, 0, 0)
+BringDroppedCash.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+BringDroppedCash.BorderSizePixel = 3
+BringDroppedCash.Position = UDim2.new(0.545352101, 0, 0.099622786, 0)
+BringDroppedCash.Size = UDim2.new(0, 78, 0, 30)
+BringDroppedCash.Font = Enum.Font.Code
+BringDroppedCash.Text = "Bring All Dropped Cash"
+BringDroppedCash.TextColor3 = Color3.new(1, 1, 1)
+BringDroppedCash.TextScaled = true
+BringDroppedCash.TextSize = 14
+BringDroppedCash.TextWrapped = true
+
+WeaponManipulationTab.Name = "Weapon Manipulation Tab"
+WeaponManipulationTab.Parent = MainFrame
+WeaponManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+WeaponManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+WeaponManipulationTab.BorderSizePixel = 5
+WeaponManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+WeaponManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+WeaponManipulationTab.Visible = false
+
+TopTitle_5.Name = "TopTitle"
+TopTitle_5.Parent = WeaponManipulationTab
+TopTitle_5.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_5.BorderSizePixel = 0
+TopTitle_5.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_5.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_5.Font = Enum.Font.Code
+TopTitle_5.Text = "Weapon Manipulation"
+TopTitle_5.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_5.TextSize = 14
+
+Back_4.Name = "Back"
+Back_4.Parent = WeaponManipulationTab
+Back_4.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_4.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_4.BorderSizePixel = 3
+Back_4.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_4.Size = UDim2.new(0, 48, 0, 15)
+Back_4.Font = Enum.Font.Code
+Back_4.Text = "Back"
+Back_4.TextColor3 = Color3.new(1, 1, 1)
+Back_4.TextScaled = true
+Back_4.TextSize = 14
+Back_4.TextWrapped = true
+
+AutomaticBarret50Cal.Name = "Automatic Barret .50 Cal"
+AutomaticBarret50Cal.Parent = WeaponManipulationTab
+AutomaticBarret50Cal.BackgroundColor3 = Color3.new(0, 0, 0)
+AutomaticBarret50Cal.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+AutomaticBarret50Cal.BorderSizePixel = 3
+AutomaticBarret50Cal.Position = UDim2.new(0.55510819, 0, 0.0996228009, 0)
+AutomaticBarret50Cal.Size = UDim2.new(0, 67, 0, 30)
+AutomaticBarret50Cal.Font = Enum.Font.Code
+AutomaticBarret50Cal.Text = "Automatic Barret .50 Cal"
+AutomaticBarret50Cal.TextColor3 = Color3.new(1, 1, 1)
+AutomaticBarret50Cal.TextScaled = true
+AutomaticBarret50Cal.TextSize = 14
+AutomaticBarret50Cal.TextWrapped = true
+
+Automatic44Magnum.Name = "Automatic .44 Magnum"
+Automatic44Magnum.Parent = WeaponManipulationTab
+Automatic44Magnum.BackgroundColor3 = Color3.new(0, 0, 0)
+Automatic44Magnum.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Automatic44Magnum.BorderSizePixel = 3
+Automatic44Magnum.Position = UDim2.new(0.0721813738, 0, 0.0996228009, 0)
+Automatic44Magnum.Size = UDim2.new(0, 67, 0, 30)
+Automatic44Magnum.Font = Enum.Font.Code
+Automatic44Magnum.Text = "Automatic .44 Magnum"
+Automatic44Magnum.TextColor3 = Color3.new(1, 1, 1)
+Automatic44Magnum.TextScaled = true
+Automatic44Magnum.TextSize = 14
+Automatic44Magnum.TextWrapped = true
+
+FastRPG7.Name = "Fast RPG-7 "
+FastRPG7.Parent = WeaponManipulationTab
+FastRPG7.BackgroundColor3 = Color3.new(0, 0, 0)
+FastRPG7.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+FastRPG7.BorderSizePixel = 3
+FastRPG7.Position = UDim2.new(0.0721813664, 0, 0.33573392, 0)
+FastRPG7.Size = UDim2.new(0, 67, 0, 30)
+FastRPG7.Font = Enum.Font.Code
+FastRPG7.Text = "Fast RPG-7 "
+FastRPG7.TextColor3 = Color3.new(1, 1, 1)
+FastRPG7.TextScaled = true
+FastRPG7.TextSize = 14
+FastRPG7.TextWrapped = true
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = WeaponManipulationTab
+Aimbot.BackgroundColor3 = Color3.new(0, 0, 0)
+Aimbot.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Aimbot.BorderSizePixel = 3
+Aimbot.Position = UDim2.new(0.55510819, 0, 0.33573392, 0)
+Aimbot.Size = UDim2.new(0, 67, 0, 30)
+Aimbot.Font = Enum.Font.Code
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.new(1, 1, 1)
+Aimbot.TextScaled = true
+Aimbot.TextSize = 14
+Aimbot.TextWrapped = true
+
+BuyBarret50CalM4A1.Name = "Buy Barret .50 Cal & M4A1"
+BuyBarret50CalM4A1.Parent = WeaponManipulationTab
+BuyBarret50CalM4A1.BackgroundColor3 = Color3.new(0, 0, 0)
+BuyBarret50CalM4A1.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+BuyBarret50CalM4A1.BorderSizePixel = 3
+BuyBarret50CalM4A1.Position = UDim2.new(0.228278935, 0, 0.590363562, 0)
+BuyBarret50CalM4A1.Size = UDim2.new(0, 111, 0, 49)
+BuyBarret50CalM4A1.Font = Enum.Font.Code
+BuyBarret50CalM4A1.Text = "Buy Barret .50 Cal & M4A1"
+BuyBarret50CalM4A1.TextColor3 = Color3.new(1, 1, 1)
+BuyBarret50CalM4A1.TextScaled = true
+BuyBarret50CalM4A1.TextSize = 14
+BuyBarret50CalM4A1.TextWrapped = true
+
+MiscellaneousManipulationTab.Name = "Miscellaneous Manipulation Tab"
+MiscellaneousManipulationTab.Parent = MainFrame
+MiscellaneousManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+MiscellaneousManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+MiscellaneousManipulationTab.BorderSizePixel = 5
+MiscellaneousManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+MiscellaneousManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+MiscellaneousManipulationTab.Visible = false
+
+TopTitle_6.Name = "TopTitle"
+TopTitle_6.Parent = MiscellaneousManipulationTab
+TopTitle_6.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_6.BorderSizePixel = 0
+TopTitle_6.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_6.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_6.Font = Enum.Font.Code
+TopTitle_6.Text = "Miscellaneous Manipulation"
+TopTitle_6.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_6.TextSize = 12
+
+Back_5.Name = "Back"
+Back_5.Parent = MiscellaneousManipulationTab
+Back_5.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_5.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_5.BorderSizePixel = 3
+Back_5.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_5.Size = UDim2.new(0, 48, 0, 15)
+Back_5.Font = Enum.Font.Code
+Back_5.Text = "Back"
+Back_5.TextColor3 = Color3.new(1, 1, 1)
+Back_5.TextScaled = true
+Back_5.TextSize = 14
+Back_5.TextWrapped = true
+
+BountyJob.Name = "Bounty Job"
+BountyJob.Parent = MiscellaneousManipulationTab
+BountyJob.BackgroundColor3 = Color3.new(0, 0, 0)
+BountyJob.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+BountyJob.BorderSizePixel = 3
+BountyJob.Position = UDim2.new(0.330717951, 0, 0.0672153905, 0)
+BountyJob.Size = UDim2.new(0, 67, 0, 30)
+BountyJob.Font = Enum.Font.Code
+BountyJob.Text = "Bounty Job"
+BountyJob.TextColor3 = Color3.new(1, 1, 1)
+BountyJob.TextScaled = true
+BountyJob.TextSize = 14
+BountyJob.TextWrapped = true
+
+DiedMessage.Name = "Died Message"
+DiedMessage.Parent = MiscellaneousManipulationTab
+DiedMessage.BackgroundColor3 = Color3.new(0, 0, 0)
+DiedMessage.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+DiedMessage.BorderSizePixel = 5
+DiedMessage.Position = UDim2.new(0.0731707364, 0, 0.266470999, 0)
+DiedMessage.Size = UDim2.new(0, 174, 0, 50)
+DiedMessage.Font = Enum.Font.SourceSans
+DiedMessage.PlaceholderText = "Died Message"
+DiedMessage.Text = ""
+DiedMessage.TextColor3 = Color3.new(1, 1, 1)
+DiedMessage.TextSize = 14
+
+RobberyManipulationTab.Name = "Robbery Manipulation Tab"
+RobberyManipulationTab.Parent = MainFrame
+RobberyManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
+RobberyManipulationTab.BorderColor3 = Color3.new(1, 1, 1)
+RobberyManipulationTab.BorderSizePixel = 5
+RobberyManipulationTab.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+RobberyManipulationTab.Size = UDim2.new(0, 205, 0, 216)
+RobberyManipulationTab.Visible = false
+
+TopTitle_7.Name = "TopTitle"
+TopTitle_7.Parent = RobberyManipulationTab
+TopTitle_7.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_7.BorderSizePixel = 0
+TopTitle_7.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_7.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_7.Font = Enum.Font.Code
+TopTitle_7.Text = "Robbery Manipulation"
+TopTitle_7.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_7.TextSize = 14
+
+Back_6.Name = "Back"
+Back_6.Parent = RobberyManipulationTab
+Back_6.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_6.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_6.BorderSizePixel = 3
+Back_6.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_6.Size = UDim2.new(0, 48, 0, 15)
+Back_6.Font = Enum.Font.Code
+Back_6.Text = "Back"
+Back_6.TextColor3 = Color3.new(1, 1, 1)
+Back_6.TextScaled = true
+Back_6.TextSize = 14
+Back_6.TextWrapped = true
+
+AntiAFKKick.Name = "Anti-AFK Kick"
+AntiAFKKick.Parent = RobberyManipulationTab
+AntiAFKKick.BackgroundColor3 = Color3.new(0, 0, 0)
+AntiAFKKick.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+AntiAFKKick.BorderSizePixel = 3
+AntiAFKKick.Position = UDim2.new(0.267303348, 0, 0.0811042339, 0)
+AntiAFKKick.Size = UDim2.new(0, 67, 0, 30)
+AntiAFKKick.Font = Enum.Font.Code
+AntiAFKKick.Text = "Anti-AFK Kick"
+AntiAFKKick.TextColor3 = Color3.new(1, 1, 1)
+AntiAFKKick.TextScaled = true
+AntiAFKKick.TextSize = 14
+AntiAFKKick.TextWrapped = true
+
+ToWFCodeSeat.Name = "To WF Code Seat"
+ToWFCodeSeat.Parent = RobberyManipulationTab
+ToWFCodeSeat.BackgroundColor3 = Color3.new(0, 0, 0)
+ToWFCodeSeat.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ToWFCodeSeat.BorderSizePixel = 3
+ToWFCodeSeat.Position = UDim2.new(0.0721814036, 0, 0.303326458, 0)
+ToWFCodeSeat.Size = UDim2.new(0, 67, 0, 30)
+ToWFCodeSeat.Font = Enum.Font.Code
+ToWFCodeSeat.Text = "Teleport to Wells Fargo Bank Seat"
+ToWFCodeSeat.TextColor3 = Color3.new(1, 1, 1)
+ToWFCodeSeat.TextScaled = true
+ToWFCodeSeat.TextSize = 14
+ToWFCodeSeat.TextWrapped = true
+
+ToWFVault.Name = "To WF Vault"
+ToWFVault.Parent = RobberyManipulationTab
+ToWFVault.BackgroundColor3 = Color3.new(0, 0, 0)
+ToWFVault.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ToWFVault.BorderSizePixel = 3
+ToWFVault.Position = UDim2.new(0.501449704, 0, 0.303326458, 0)
+ToWFVault.Size = UDim2.new(0, 67, 0, 30)
+ToWFVault.Font = Enum.Font.Code
+ToWFVault.Text = "Teleport to Wells Fargo Bank Vault"
+ToWFVault.TextColor3 = Color3.new(1, 1, 1)
+ToWFVault.TextScaled = true
+ToWFVault.TextSize = 14
+ToWFVault.TextWrapped = true
+
+AutoRob.Name = "Auto-Rob"
+AutoRob.Parent = RobberyManipulationTab
+AutoRob.BackgroundColor3 = Color3.new(0, 0, 0)
+AutoRob.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+AutoRob.BorderSizePixel = 3
+AutoRob.Position = UDim2.new(0.267303348, 0, 0.511659861, 0)
+AutoRob.Size = UDim2.new(0, 67, 0, 30)
+AutoRob.Font = Enum.Font.Code
+AutoRob.Text = "Auto-Rob"
+AutoRob.TextColor3 = Color3.new(1, 1, 1)
+AutoRob.TextSize = 14
+AutoRob.TextWrapped = true
+
+VehicleManipulationTab2.Name = "Vehicle Manipulation Tab2"
+VehicleManipulationTab2.Parent = MainFrame
+VehicleManipulationTab2.BackgroundColor3 = Color3.new(0, 0, 0)
+VehicleManipulationTab2.BorderColor3 = Color3.new(1, 1, 1)
+VehicleManipulationTab2.BorderSizePixel = 5
+VehicleManipulationTab2.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
+VehicleManipulationTab2.Size = UDim2.new(0, 205, 0, 216)
+VehicleManipulationTab2.Visible = false
+
+TopTitle_8.Name = "TopTitle"
+TopTitle_8.Parent = VehicleManipulationTab2
+TopTitle_8.BackgroundColor3 = Color3.new(0, 0, 0)
+TopTitle_8.BorderSizePixel = 0
+TopTitle_8.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
+TopTitle_8.Size = UDim2.new(0, 175, 0, 25)
+TopTitle_8.Font = Enum.Font.Code
+TopTitle_8.Text = "Vehicle Manipulation"
+TopTitle_8.TextColor3 = Color3.new(1, 1, 1)
+TopTitle_8.TextSize = 14
+
+Back_7.Name = "Back"
+Back_7.Parent = VehicleManipulationTab2
+Back_7.BackgroundColor3 = Color3.new(0, 0, 0)
+Back_7.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+Back_7.BorderSizePixel = 3
+Back_7.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
+Back_7.Size = UDim2.new(0, 48, 0, 15)
+Back_7.Font = Enum.Font.Code
+Back_7.Text = "Back"
+Back_7.TextColor3 = Color3.new(1, 1, 1)
+Back_7.TextScaled = true
+Back_7.TextSize = 14
+Back_7.TextWrapped = true
+
+ChangeAllCarsHeighttoMax.Name = "Change All Cars Height to Max"
+ChangeAllCarsHeighttoMax.Parent = VehicleManipulationTab2
+ChangeAllCarsHeighttoMax.BackgroundColor3 = Color3.new(0, 0, 0)
+ChangeAllCarsHeighttoMax.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+ChangeAllCarsHeighttoMax.BorderSizePixel = 3
+ChangeAllCarsHeighttoMax.Position = UDim2.new(0.0721813664, 0, 0.0996229351, 0)
+ChangeAllCarsHeighttoMax.Size = UDim2.new(0, 168, 0, 35)
+ChangeAllCarsHeighttoMax.Font = Enum.Font.Code
+ChangeAllCarsHeighttoMax.Text = "Change All Cars Height to Max"
+ChangeAllCarsHeighttoMax.TextColor3 = Color3.new(1, 1, 1)
+ChangeAllCarsHeighttoMax.TextScaled = true
+ChangeAllCarsHeighttoMax.TextSize = 14
+ChangeAllCarsHeighttoMax.TextWrapped = true
+
+GiveAllCarsBomb.Name = "Give All Cars Bomb"
+GiveAllCarsBomb.Parent = VehicleManipulationTab2
+GiveAllCarsBomb.BackgroundColor3 = Color3.new(0, 0, 0)
+GiveAllCarsBomb.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
+GiveAllCarsBomb.BorderSizePixel = 3
+GiveAllCarsBomb.Position = UDim2.new(0.0721813664, 0, 0.382030308, 0)
+GiveAllCarsBomb.Size = UDim2.new(0, 168, 0, 35)
+GiveAllCarsBomb.Font = Enum.Font.Code
+GiveAllCarsBomb.Text = "Give All Cars Bomb"
+GiveAllCarsBomb.TextColor3 = Color3.new(1, 1, 1)
+GiveAllCarsBomb.TextScaled = true
+GiveAllCarsBomb.TextSize = 14
+GiveAllCarsBomb.TextWrapped = true
+
+OpenedFrame.Name = "Opened Frame"
+OpenedFrame.Parent = LEGUI
+OpenedFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenedFrame.BorderSizePixel = 0
+OpenedFrame.Position = UDim2.new(-0.000344157219, 0, 0.980549157, 0)
+OpenedFrame.Size = UDim2.new(0, 19, 0, 21)
+
+TextButton.Parent = OpenedFrame
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundTransparency = 1
+TextButton.Position = UDim2.new(-0.315788269, 0, -0.408255458, 0)
+TextButton.Size = UDim2.new(0, 30, 0, 37)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "-"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 40
+
+ClosedFrame.Name = "Closed Frame"
+ClosedFrame.Parent = LEGUI
+ClosedFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+ClosedFrame.BorderSizePixel = 0
+ClosedFrame.Position = UDim2.new(-0.000344157219, 0, 0.980549157, 0)
+ClosedFrame.Size = UDim2.new(0, 19, 0, 21)
+ClosedFrame.Visible = false
+
+TextButton_2.Parent = ClosedFrame
+TextButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_2.BackgroundTransparency = 1
+TextButton_2.Position = UDim2.new(-0.315788269, 0, -0.408255458, 0)
+TextButton_2.Size = UDim2.new(0, 30, 0, 37)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "-"
+TextButton_2.TextColor3 = Color3.new(1, 1, 1)
+TextButton_2.TextSize = 40
+
+AutoExecute.Name = "AutoExecute"
+AutoExecute.Parent = LEGUI
+
+--[[
+	 Scripts:
+--]]
+
+local function NGNYC_fake_script() -- VehicleManipulation.LocalScript 
+	local script = Instance.new('LocalScript', VehicleManipulation)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Vehicle Manipulation Tab"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NGNYC_fake_script)()
+local function YNOH_fake_script() -- CharacterManipulation.LocalScript 
+	local script = Instance.new('LocalScript', CharacterManipulation)
+
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Character Manipulation Tab"].Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(YNOH_fake_script)()
+local function KZMVXQB_fake_script() -- MoneyManipulation.LocalScript 
+	local script = Instance.new('LocalScript', MoneyManipulation)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Money Manipulation Tab"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(KZMVXQB_fake_script)()
+local function VPNZ_fake_script() -- WeaponManipulation.LocalScript 
+	local script = Instance.new('LocalScript', WeaponManipulation)
+
+	
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Weapon Manipulation Tab"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(VPNZ_fake_script)()
+local function KKLJ_fake_script() -- MiscellaneousManipulation.LocalScript 
+	local script = Instance.new('LocalScript', MiscellaneousManipulation)
+
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Miscellaneous Manipulation Tab"].Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(KKLJ_fake_script)()
+local function GZNZYF_fake_script() -- RobberyManipulation.LocalScript 
+	local script = Instance.new('LocalScript', RobberyManipulation)
+
+	
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Robbery Manipulation Tab"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(GZNZYF_fake_script)()
+local function SPZGOQ_fake_script() -- SpeedBypass.LocalScript 
+	local script = Instance.new('LocalScript', SpeedBypass)
+
+	
+	
+	
+	function onButtonClicked()
+	game:GetService('Players').LocalPlayer.Character.PlayerSetup:destroy()
+	game.StarterPlayer.StarterCharacterScripts.PlayerSetup:destroy()
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(SPZGOQ_fake_script)()
+local function NZXHFD_fake_script() -- Back.LocalScript 
+	local script = Instance.new('LocalScript', Back)
+
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NZXHFD_fake_script)()
+local function MOVMUVZ_fake_script() -- FlyBypass.LocalScript 
+	local script = Instance.new('LocalScript', FlyBypass)
+
+	
+	
+	function onButtonClicked()
+	game.ReplicatedStorage.Events.AE:destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.AEClient:destroy()
+	game:GetService("StarterGui").AEClient:destroy()
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(MOVMUVZ_fake_script)()
+local function XRQL_fake_script() -- ServersidedNoFace.LocalScript 
+	local script = Instance.new('LocalScript', ServersidedNoFace)
+
+	
+	
+	function onButtonClicked()
+	for i,v in pairs(game:GetService('Players').LocalPlayer.Character:GetDescendants()) do
+			if v:IsA("Decal") and v.Name == 'face' then
+				v:Destroy()
+			end
+	end
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(XRQL_fake_script)()
+local function AXNWO_fake_script() -- ServersidedNoHats.LocalScript 
+	local script = Instance.new('LocalScript', ServersidedNoHats)
+
+	
+	function onButtonClicked()
+	if game:GetService('Players').LocalPlayer.Character then
+			for _,v in pairs(game:GetService('Players').LocalPlayer.Character.Humanoid:GetAccessories()) do
+				v:Destroy()
+			end
+		end
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(AXNWO_fake_script)()
+local function XCWYHQ_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	
+	
+	
+	function onButtonClicked()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(XCWYHQ_fake_script)()
+local function NXUZGOB_fake_script() -- MtoHealKeybind.LocalScript 
+	local script = Instance.new('LocalScript', MtoHealKeybind)
+
+	
+	
+	
+	function onButtonClicked()
+	
+	local UIS = game:GetService("UserInputService")
+		local UserInterface = script.Parent 
+		UIS.InputBegan:Connect(function(key)
+			if key.KeyCode == Enum.KeyCode.M then 
+	if UIS:GetFocusedTextBox() == nil then 
+				game.ReplicatedStorage.Events.MedicineEvent:FireServer("Medikit",true)
+	wait(1)
+	game.ReplicatedStorage.Events.DamageRequestEvent:FireServer(game:GetService('Players').LocalPlayer.Character.Humanoid,"MedicineEvent",100,"Medikit")
+				end
+			end
+	end)
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NXUZGOB_fake_script)()
+local function TOHOW_fake_script() -- AutoHeal.LocalScript 
+	local script = Instance.new('LocalScript', AutoHeal)
+
+	
+	
+	
+	function onButtonClicked()
+	while true do
+	wait(1)
+	if game:GetService("Players").LocalPlayer.Character.Humanoid.Health < 100 then
+	game.ReplicatedStorage.Events.MedicineEvent:FireServer("Medikit",true)
+	wait(.1)
+	game.ReplicatedStorage.Events.DamageRequestEvent:FireServer(game:GetService('Players').LocalPlayer.Character.Humanoid,"MedicineEvent",100,"Medikit")
+	end
+	end
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+	
+	
+	
+end
+coroutine.wrap(TOHOW_fake_script)()
+local function TDWO_fake_script() -- Back_2.LocalScript 
+	local script = Instance.new('LocalScript', Back_2)
+
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(TDWO_fake_script)()
+local function MKWML_fake_script() -- RemotelyBuyACarBomb.LocalScript 
+	local script = Instance.new('LocalScript', RemotelyBuyACarBomb)
+
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "Garage" and descendant.Parent.Parent.Name == "Model" then
+		descendant.CFrame = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame
+		descendant.Transparency = .5
+		descendant.BrickColor = BrickColor.new('Really red')
+		descendant.Locked = false
+		wait(0.1)
+		end
+		end
+		end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(MKWML_fake_script)()
+local function UQNHXJI_fake_script() -- LeftFront.LocalScript 
+	local script = Instance.new('LocalScript', LeftFront)
+
+	
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace.CarStorage:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "LFOpen" then
+		game.ReplicatedStorage.Events.CarDoorOpener:FireServer(descendant)
+		end
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(UQNHXJI_fake_script)()
+local function ZJSNEF_fake_script() -- RightFront.LocalScript 
+	local script = Instance.new('LocalScript', RightFront)
+
+	
+	
+	
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace.CarStorage:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "RFOpen" then
+		game.ReplicatedStorage.Events.CarDoorOpener:FireServer(descendant)
+		end
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(ZJSNEF_fake_script)()
+local function ECPF_fake_script() -- RightBack.LocalScript 
+	local script = Instance.new('LocalScript', RightBack)
+
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace.CarStorage:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "RBOpen" then
+		game.ReplicatedStorage.Events.CarDoorOpener:FireServer(descendant)
+		end
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(ECPF_fake_script)()
+local function IPOSPR_fake_script() -- LeftBack.LocalScript 
+	local script = Instance.new('LocalScript', LeftBack)
+
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace.CarStorage:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "LBOpen" then
+		game.ReplicatedStorage.Events.CarDoorOpener:FireServer(descendant)
+		end
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(IPOSPR_fake_script)()
+local function SQZJ_fake_script() -- UnlockAllCarDoors.LocalScript 
+	local script = Instance.new('LocalScript', UnlockAllCarDoors)
+
+	
+	
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+	    for index, descendant in pairs(descendants) do
+	if descendant.Name == "VehicleSeat" then
+	descendant.Disabled = false
+	end
+	end
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(SQZJ_fake_script)()
+local function RGYZE_fake_script() -- RemotelySprayCar.LocalScript 
+	local script = Instance.new('LocalScript', RemotelySprayCar)
+
+	
+	
+	
+	
+	function onButtonClicked()
+	local CarSpray = game.Workspace.SprayShop.Needed.Garage
+		CarSpray.CFrame = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame
+		CarSpray.Transparency = .5
+		wait(0.1)
+		end 
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(RGYZE_fake_script)()
+local function HDQBF_fake_script() -- ToPage2.LocalScript 
+	local script = Instance.new('LocalScript', ToPage2)
+
+	
+	
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Parent["Vehicle Manipulation Tab2"].Visible = true
+	script.Parent.Parent.Visible = false
+		end 
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(HDQBF_fake_script)()
+local function XWLXFJN_fake_script() -- Back_3.LocalScript 
+	local script = Instance.new('LocalScript', Back_3)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(XWLXFJN_fake_script)()
+local function ZKZMC_fake_script() -- BringATM.LocalScript 
+	local script = Instance.new('LocalScript', BringATM)
+
+	
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "BankMachine" then
+		descendant.CFrame = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame
+		descendant.CanCollide = false
+		wait(0.1)
+		end 
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(ZKZMC_fake_script)()
+local function NJBE_fake_script() -- BringDroppedCash.LocalScript 
+	local script = Instance.new('LocalScript', BringDroppedCash)
+
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+		for index, descendant in pairs(descendants) do
+		if descendant.Name == "Money" then
+				descendant.CFrame = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame
+		
+		end
+		end
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NJBE_fake_script)()
+local function WLEHEA_fake_script() -- Back_4.LocalScript 
+	local script = Instance.new('LocalScript', Back_4)
+
+	
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(WLEHEA_fake_script)()
+local function JKQQLF_fake_script() -- AutomaticBarret50Cal.LocalScript 
+	local script = Instance.new('LocalScript', AutomaticBarret50Cal)
+
+	
+	
+	
+	function onButtonClicked()
+	local a = require(game:GetService("ReplicatedStorage").Modules.Gun.Configuration)
+		local b = a['Barret .50Cal']
+		b.Cooldown = 0
+		b.Type = "Automatic"
+		end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(JKQQLF_fake_script)()
+local function PLNY_fake_script() -- Automatic44Magnum.LocalScript 
+	local script = Instance.new('LocalScript', Automatic44Magnum)
+
+	
+	
+	function onButtonClicked()
+	local a = require(game:GetService("ReplicatedStorage").Modules.Gun.Configuration)
+		local b = a[".44 Magnum"]
+		b.Cooldown = 0
+		b.Type = "Automatic"
+		b.Damage = 100000
+		end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(PLNY_fake_script)()
+local function TFHVXX_fake_script() -- FastRPG7.LocalScript 
+	local script = Instance.new('LocalScript', FastRPG7)
+
+	
+	
+	
+	function onButtonClicked()
+	local a = require(game:GetService("ReplicatedStorage").Modules.Gun.Configuration)
+		local b = a['RPG-7']
+		b.Cooldown = 0
+		b.Type = "Automatic"
+		b.Damage = 100000
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(TFHVXX_fake_script)()
+local function BNTVQLF_fake_script() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	
+	
+	
+	function onButtonClicked()
+	local plrs = game:GetService("Players")
+		local TeamBased = true ; local teambasedswitch = "o"
+		local presskeytoaim = true; local aimkey = "e"
+		local raycast = false
+		
+		local espupdatetime = 5; autoesp = false
+		
+		
+		
+		local lockaim = true; local lockangle = 5
+		
+		
+		
+		--function findwat(folder, what)
+		--	for i, smth in pairs(folder:GetChildren()) do
+		--		if string.find(string.lower(tostring(smth)), string.lower(what)) then
+		--			return smth
+		--		end
+		--	end
+		--end
+		--
+		--local plrs = findwat(game, "Players")
+		
+		
+		
+		
+		local Gui = Instance.new("ScreenGui")
+		local Move = Instance.new("Frame")
+		local Main = Instance.new("Frame")
+		local EspStatus = Instance.new("TextLabel")
+		local st1 = Instance.new("TextLabel")
+		local st1_2 = Instance.new("TextLabel")
+		local st1_3 = Instance.new("TextLabel")
+		local Name = Instance.new("TextLabel")
+		--Properties:
+		Gui.Name = "Gui"
+		Gui.Parent = plrs.LocalPlayer:WaitForChild("PlayerGui")
+		
+		Move.Name = "Move"
+		Move.Parent = Gui
+		Move.BackgroundColor3 = Color3.new(0.545098, 0, 0)
+		Move.BackgroundTransparency = 1
+		Move.BorderSizePixel = 0
+		Move.Draggable = true
+		Move.Position = UDim2.new(0.005, 0, -0.15, 0)
+		Move.Size = UDim2.new(0.28141585, 0, 0.0320388414, 0)
+		
+		Main.Name = "Main"
+		Main.Parent = Move
+		Main.BackgroundColor3 = Color3.new(1, 1, 1)
+		Main.Position = UDim2.new(0, 0, 0, 0)
+		Main.Size = UDim2.new(0, 0, 0, 0)
+		Main.Style = Enum.FrameStyle.RobloxSquare
+		
+		EspStatus.Name = "EspStatus"
+		EspStatus.Parent = Main
+		EspStatus.BackgroundColor3 = Color3.new(1, 1, 1)
+		EspStatus.BackgroundTransparency = 1
+		EspStatus.Position = UDim2.new(0, 0, 0.300000012, 0)
+		EspStatus.Size = UDim2.new(1, 0, 0.162, 0)
+		EspStatus.Font = Enum.Font.ArialBold
+		EspStatus.Text = "Press O to change team based mode"
+		EspStatus.TextColor3 = Color3.new(0.6, 0.196078, 0.8)
+		EspStatus.TextScaled = true
+		EspStatus.TextWrapped = true
+		
+		st1.Name = "st1"
+		st1.Parent = Main
+		st1.BackgroundColor3 = Color3.new(1, 1, 1)
+		st1.BackgroundTransparency = 1
+		st1.Position = UDim2.new(0.271787882, 0, 0, 0)
+		st1.Size = UDim2.new(0.728211343, 0, 0.161862016, 0)
+		st1.Font = Enum.Font.ArialBold
+		st1.Text = ""
+		st1.TextColor3 = Color3.new(0.0784314, 0.541176, 0)
+		st1.TextScaled = true
+		st1.TextSize = 14
+		st1.TextWrapped = true
+		
+		-- Scripts:
+		
+		
+		local plrsforaim = {}
+		
+		local lplr = game:GetService("Players").LocalPlayer
+		Move.Draggable = true
+		Gui.ResetOnSpawn = false
+		Gui.Name = "Chat"
+		Gui.DisplayOrder = 999
+		
+			Gui.Parent = plrs.LocalPlayer.PlayerGui
+		
+		
+		f = {}
+		local espforlder
+		
+		f.addesp = function()
+			--print("ESP ran")
+			if espforlder then
+			else
+				espforlder = Instance.new("Folder")
+				espforlder.Parent = game.Workspace.CurrentCamera
+			end
+			for i, v in pairs(espforlder:GetChildren()) do
+				v:Destroy()
+			end
+			for _, plr in pairs(plrs:GetChildren()) do
+				if plr.Character and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name then
+					if TeamBased == true then
+						if plr.Team.Name ~= plrs.LocalPlayer.Team.Name  then
+							local e = espforlder:FindFirstChild(plr.Name)
+							if not e then
+								--print("Added esp for team based")
+								local bill = Instance.new("BillboardGui", espforlder)
+								bill.Name = plr.Name
+								bill.AlwaysOnTop = true
+								bill.Size = UDim2.new(1,0,1,0)
+								bill.Adornee = plr.Character.Head
+								local Frame = Instance.new('Frame',bill)
+								Frame.Active = true
+								Frame.BackgroundColor3 = Color3.new(0.541176, 0.168627, 0.886275)
+								Frame.BackgroundTransparency = 0
+								Frame.BorderSizePixel = 0
+								Frame.AnchorPoint = Vector2.new(.5, .5)
+								Frame.Position = UDim2.new (0.5,0,0.5,0)
+								Frame.Size = UDim2.new (1,0,1,0)
+								Frame.Rotation = 0
+								plr.Character.Humanoid.Died:Connect(function()
+									bill:Destroy()
+								end)
+							end
+						end
+					else
+						local e = espforlder:FindFirstChild(plr.Name)
+						if not e then
+							--print("Added esp")
+							local bill = Instance.new("BillboardGui", espforlder)
+							bill.Name = plr.Name
+							bill.AlwaysOnTop = true
+							bill.Size = UDim2.new(1,0,1,0)
+							bill.Adornee = plr.Character.Head
+							local Frame = Instance.new('Frame',bill)
+							Frame.Active = true
+							Frame.BackgroundColor3 = Color3.new(0.541176, 0.168627, 0.886275)
+							Frame.BackgroundTransparency = 0
+							Frame.BorderSizePixel = 0
+							Frame.AnchorPoint = Vector2.new(.5, .5)
+							Frame.Position = UDim2.new (0.5,0,0.5,0)
+							Frame.Size = UDim2.new (1,0,1,0)
+							Frame.Rotation = 0
+							plr.Character.Humanoid.Died:Connect(function()
+								bill:Destroy()
+							end)
+						end
+					end
+					
+					
+				end
+			end
+		end
+		local cam = game.Workspace.CurrentCamera
+		
+		local mouse = lplr:GetMouse()
+		local switch = false
+		local key = "k"
+		local aimatpart = nil
+		mouse.KeyDown:Connect(function(a)
+			if a == "t" then
+				print("worked1")
+				f.addesp()
+			elseif a == "u" then
+				if raycast == true then
+					raycast = false
+				else
+					raycast = true
+				end
+			elseif a == "l" then
+				if autoesp == false then
+					autoesp = true
+				else
+					autoesp = false
+				end
+			end
+			if a == "j" then
+				if mouse.Target then
+					mouse.Target:Destroy()
+				end
+			end
+			if a == key then
+				if switch == false then
+					switch = true
+				else
+					switch = false
+					if aimatpart ~= nil then
+						aimatpart = nil
+					end
+				end
+			elseif a == teambasedswitch then
+				if TeamBased == true then
+					TeamBased = false
+					teambasedstatus.Text = tostring(TeamBased)
+				else
+					TeamBased = true
+					teambasedstatus.Text = tostring(TeamBased)
+				end
+			elseif a == aimkey then
+				if not aimatpart then
+					local maxangle = math.rad(20)
+					for i, plr in pairs(plrs:GetChildren()) do
+						if plr.Name ~= lplr.Name and plr.Character and plr.Character.Head and plr.Character.Humanoid and plr.Character.Humanoid.Health > 1 then
+							if TeamBased == true then
+								if plr.Team.Name ~= lplr.Team.Name then
+									local an = checkfov(plr.Character.Head)
+									if an < maxangle then
+										maxangle = an
+										aimatpart = plr.Character.Head
+									end
+								end
+							else
+								local an = checkfov(plr.Character.Head)
+									if an < maxangle then
+										maxangle = an
+										aimatpart = plr.Character.Head
+									end
+									print(plr)
+							end
+							plr.Character.Humanoid.Died:Connect(function()
+								if aimatpart.Parent == plr.Character or aimatpart == nil then
+									aimatpart = nil
+								end
+							end)
+						end
+					end
+				else
+					aimatpart = nil
+				end
+			end
+		end)
+		
+		function getfovxyz (p0, p1, deg)
+			local x1, y1, z1 = p0:ToOrientation()
+			local cf = CFrame.new(p0.p, p1.p)
+			local x2, y2, z2 = cf:ToOrientation()
+			--local d = math.deg
+			if deg then
+				--return Vector3.new(d(x1-x2), d(y1-y2), d(z1-z2))
+			else
+				return Vector3.new((x1-x2), (y1-y2), (z1-z2))
+			end
+		end
+		
+		function getaimbotplrs()
+			plrsforaim = {}
+			for i, plr in pairs(plrs:GetChildren()) do
+				if plr.Character and plr.Character.Humanoid and plr.Character.Humanoid.Health > 0 and plr.Name ~= lplr.Name and plr.Character.Head then
+					
+					if TeamBased == true then
+						if plr.Team.Name ~= lplr.Team.Name then
+							local cf = CFrame.new(game.Workspace.CurrentCamera.CFrame.p, plr.Character.Head.CFrame.p)
+							local r = Ray.new(cf, cf.LookVector * 10000)
+							local ign = {}
+							for i, v in pairs(plrs.LocalPlayer.Character:GetChildren()) do
+								if v:IsA("BasePart") then
+									table.insert(ign , v)
+								end
+							end
+							local obj = game.Workspace:FindPartOnRayWithIgnoreList(r, ign)
+							if obj.Parent == plr.Character and obj.Parent ~= lplr.Character then
+								table.insert(plrsforaim, obj)
+							end
+						end
+					else
+						local cf = CFrame.new(game.Workspace.CurrentCamera.CFrame.p, plr.Character.Head.CFrame.p)
+						local r = Ray.new(cf, cf.LookVector * 10000)
+						local ign = {}
+						for i, v in pairs(plrs.LocalPlayer.Character:GetChildren()) do
+							if v:IsA("BasePart") then
+								table.insert(ign , v)
+							end
+						end
+						local obj = game.Workspace:FindPartOnRayWithIgnoreList(r, ign)
+						if obj.Parent == plr.Character and obj.Parent ~= lplr.Character then
+							table.insert(plrsforaim, obj)
+						end
+					end
+					
+					
+				end
+			end
+		end
+		
+		function aimat(part)
+			cam.CFrame = CFrame.new(cam.CFrame.p, part.CFrame.p)
+		end
+		function checkfov (part)
+			local fov = getfovxyz(game.Workspace.CurrentCamera.CFrame, part.CFrame)
+			local angle = math.abs(fov.X) + math.abs(fov.Y)
+			return angle
+		end
+		
+		game:GetService("RunService").RenderStepped:Connect(function()
+			if aimatpart then
+				aimat(aimatpart)
+				if aimatpart.Parent == plrs.LocalPlayer.Character then
+					aimatpart = nil
+				end
+			end
+			
+			
+		--	if switch == true then
+		--		local maxangle = 99999
+		--		
+		--		--print("Loop")
+		--		if true and raycast == false then
+		--			for i, plr in pairs(plrs:GetChildren()) do
+		--				if plr.Name ~= lplr.Name and plr.Character and plr.Character.Head and plr.Character.Humanoid and plr.Character.Humanoid.Health > 1 then
+		--					if TeamBased then
+		--						if plr.Team.Name ~= lplr.Team.Name or plr.Team.TeamColor ~= lplr.Team.TeamColor then
+		--							local an = checkfov(plr.Character.Head)
+		--							if an < maxangle then
+		--								maxangle = an
+		--								aimatpart = plr.Character.Head
+		--								if an < lockangle then
+		--									break
+		--								end
+		--							end
+		--						end
+		--					else
+		--						local an = checkfov(plr.Character.Head)
+		--							if an < maxangle then
+		--								maxangle = an
+		--								aimatpart = plr.Character.Head
+		--								if an < lockangle then
+		--									break
+		--								end
+		--							end
+		--					end
+		--					
+		--					
+		--					
+		--					
+		--				end
+		--			end
+		--		elseif raycast == true then
+		--			
+		--		end
+				
+				if raycast == true and switch == false and not aimatpart then
+					getaimbotplrs()
+					aimatpart = nil
+					local maxangle = 999
+					for i, v in ipairs(plrsforaim) do
+						if v.Parent ~= lplr.Character then
+							local an = checkfov(v)
+							if an < maxangle and v ~= lplr.Character.Head then
+								maxangle = an
+								aimatpart = v
+								print(v:GetFullName())
+								v.Parent.Humanoid.Died:connect(function()
+									aimatpart = nil
+								end)
+							end
+						end
+					end
+				
+			end
+		end)
+		delay(0, function()
+			while wait(espupdatetime) do
+				if autoesp == true then
+					pcall(function()
+					f.addesp()
+					end)
+				end
+			end
+		end)
+		warn("loaded")
+		end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(BNTVQLF_fake_script)()
+local function NEVSP_fake_script() -- BuyBarret50CalM4A1.LocalScript 
+	local script = Instance.new('LocalScript', BuyBarret50CalM4A1)
+
+	
+	
+	
+	
+	function onButtonClicked()
+	
+	 
+	game.ReplicatedStorage.Events.ToolRequest:FireServer("Barret .50Cal","CellPhone")
+		game.ReplicatedStorage.Events.ToolRequest:FireServer("M4A1","CellPhone")
+		end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NEVSP_fake_script)()
+local function BMGUNVS_fake_script() -- Back_5.LocalScript 
+	local script = Instance.new('LocalScript', Back_5)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(BMGUNVS_fake_script)()
+local function JHUJ_fake_script() -- BountyJob.LocalScript 
+	local script = Instance.new('LocalScript', BountyJob)
+
+	
+	
+	function onButtonClicked()
+	game:GetService("Workspace").Solomon.SpeechRemote:FireServer("StartConversation")
+	wait(.1)
+	game:GetService("Workspace").Solomon.SpeechRemote:FireServer("beatupsquare")
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(JHUJ_fake_script)()
+local function LBOMBK_fake_script() -- DiedMessage.LocalScript 
+	local script = Instance.new('LocalScript', DiedMessage)
+
+	
+	
+	while true do
+	wait(3)
+	local bunned = game.CoreGui.LEGUI.MainFrame["Miscellaneous Manipulation Tab"]["Died Message"].Text
+	wait(.1)
+	if game:GetService('Players').LocalPlayer.Character.Humanoid.Health < 1 then
+	
+	game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(bunned,"All")
+	end
+	end
+	
+	
+end
+coroutine.wrap(LBOMBK_fake_script)()
+local function QSZDU_fake_script() -- Back_6.LocalScript 
+	local script = Instance.new('LocalScript', Back_6)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(QSZDU_fake_script)()
+local function PDLGTDS_fake_script() -- AntiAFKKick.LocalScript 
+	local script = Instance.new('LocalScript', AntiAFKKick)
+
+	
+	
+	function onButtonClicked()
+	local GC = getconnections or get_signal_cons
+		if GC then
+			for i,v in pairs(GC(game:GetService('Players').LocalPlayer.Idled)) do
+				if v["Disable"] then
+					v["Disable"](v)
+				elseif v["Disconnect"] then
+					v["Disconnect"](v)
+				end
+			end
+	end
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(PDLGTDS_fake_script)()
+local function NIMKHAC_fake_script() -- ToWFCodeSeat.LocalScript 
+	local script = Instance.new('LocalScript', ToWFCodeSeat)
+
+	
+	
+	function onButtonClicked()
+	local target = CFrame.new(2045.07263, 5.63437414, 1333.91345) --could be near a brick or in a new area
+		for i, player in ipairs(game:GetService("Players"):GetChildren()) do
+		   --Make sure the character exists and its HumanoidRootPart exists
+		   if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		       --add an offset of 5 for each character
+		      player.Character.HumanoidRootPart.CFrame = target + Vector3.new(0, i * 5, 0)
+		   end
+		end	
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NIMKHAC_fake_script)()
+local function JICSX_fake_script() -- ToWFVault.LocalScript 
+	local script = Instance.new('LocalScript', ToWFVault)
+
+	
+	
+	function onButtonClicked()
+	local target = CFrame.new(2041.323, -22.4250488, 1319.48169) --could be near a brick or in a new area
+		for i, player in ipairs(game:GetService("Players"):GetChildren()) do
+		   --Make sure the character exists and its HumanoidRootPart exists
+		   if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+		       --add an offset of 5 for each character
+		      player.Character.HumanoidRootPart.CFrame = target + Vector3.new(0, i * 5, 0)
+		   end
+		end	
+	end
+	
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(JICSX_fake_script)()
+local function TKGSG_fake_script() -- AutoRob.LocalScript 
+	local script = Instance.new('LocalScript', AutoRob)
+
+	
+	
+	function onButtonClicked()
+	while true do
+			wait()
+			game.ReplicatedStorage.Events.RobBank:FireServer(1000, false)
+			end
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(TKGSG_fake_script)()
+local function YJQW_fake_script() -- Back_7.LocalScript 
+	local script = Instance.new('LocalScript', Back_7)
+
+	
+	function onButtonClicked()
+	script.Parent.Parent.Visible = false
+	game.CoreGui.LEGUI.MainFrame["Vehicle Manipulation Tab"].Visible = true
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(YJQW_fake_script)()
+local function PYYQ_fake_script() -- ChangeAllCarsHeighttoMax.LocalScript 
+	local script = Instance.new('LocalScript', ChangeAllCarsHeighttoMax)
+
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+			for index, descendant in pairs(descendants) do
+			if descendant.Name == "VS3" and descendant.Parent.Name == "CarStorage" then
+			game.ReplicatedStorage.Functions.ChangeCarHeight:InvokeServer(descendant,12)
+	end
+	end
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(PYYQ_fake_script)()
+local function YMOVXV_fake_script() -- GiveAllCarsBomb.LocalScript 
+	local script = Instance.new('LocalScript', GiveAllCarsBomb)
+
+	
+	function onButtonClicked()
+	local descendants = game.Workspace:GetDescendants()
+	        for index, descendant in pairs(descendants) do
+	        if descendant.Name == "VS3" and descendant.Parent.Name == "CarStorage" then
+	        game.ReplicatedStorage.Events.GiveCarBomb:FireServer(descendant,"PrimeNRun")
+	end
+	end
+	end
+	
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(YMOVXV_fake_script)()
+local function XXHH_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Parent.MainFrame.Visible = true
+	script.Parent.Parent.Parent["Closed Frame"].Visible = true
+	script.Parent.Parent.Visible = false
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(XXHH_fake_script)()
+local function NQST_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	
+	
+	function onButtonClicked()
+	script.Parent.Parent.Parent.MainFrame.Visible = false
+	script.Parent.Parent.Parent["Opened Frame"].Visible = true
+	script.Parent.Parent.Visible = false
+	end
+	script.Parent.MouseButton1Down:connect(onButtonClicked)
+end
+coroutine.wrap(NQST_fake_script)()
+local function BTTG_fake_script() -- AutoExecute.LocalScript 
+	local script = Instance.new('LocalScript', AutoExecute)
+
+	
+	
+	while true do
+	wait(1)
+	game.ReplicatedStorage.Events.AE:destroy()
+	game:GetService("Players").LocalPlayer.PlayerGui.AEClient:destroy()
+	game:GetService("StarterGui").AEClient:destroy()
+	game:GetService('Players').LocalPlayer.Character.PlayerSetup:destroy()
+	game.StarterPlayer.StarterCharacterScripts.PlayerSetup:destroy()
+	end
+	
+	
+	
+	
+	
+	
+end
+coroutine.wrap(BTTG_fake_script)()
