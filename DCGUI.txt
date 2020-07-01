@@ -1,5 +1,6 @@
 --[[
-	-- loadstring(game:HttpGet('https://raw.githubusercontent.com/burnedgoods/r/master/DCGUI.txt'))()
+	 Gui to Lua Converter
+-- Revamped by:HoIyScript
 --]]
 
 
@@ -17,7 +18,6 @@ local WeaponManipulation = Instance.new("TextButton")
 local MiscellaneousManipulation = Instance.new("TextButton")
 local RobberyManipulation = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-local CarChangeManipulationTab = Instance.new("TextButton")
 local CharacterManipulationTab = Instance.new("Frame")
 local TopTitle_2 = Instance.new("TextLabel")
 local SpeedBypass = Instance.new("TextButton")
@@ -60,9 +60,6 @@ local TopTitle_6 = Instance.new("TextLabel")
 local Back_5 = Instance.new("TextButton")
 local BountyJob = Instance.new("TextButton")
 local DiedMessage = Instance.new("TextBox")
-local Teleport = Instance.new("TextButton")
-local BuildShipmentFactory = Instance.new("TextButton")
-local AutoShipment = Instance.new("TextButton")
 local RobberyManipulationTab = Instance.new("Frame")
 local TopTitle_7 = Instance.new("TextLabel")
 local Back_6 = Instance.new("TextButton")
@@ -74,16 +71,7 @@ local VehicleManipulationTab2 = Instance.new("Frame")
 local TopTitle_8 = Instance.new("TextLabel")
 local Back_7 = Instance.new("TextButton")
 local ChangeAllCarsHeighttoMax = Instance.new("TextButton")
-local TextBox = Instance.new("TextBox")
-local GO = Instance.new("TextButton")
 local GiveAllCarsBomb = Instance.new("TextButton")
-local CarChangeManipulationTab_2 = Instance.new("Frame")
-local TopTitle_9 = Instance.new("TextLabel")
-local Back_8 = Instance.new("TextButton")
-local Kill = Instance.new("TextButton")
-local BuildSportsCarRoofGarage = Instance.new("TextButton")
-local AddRoofRemover = Instance.new("TextButton")
-local RemoveRoofRemover = Instance.new("TextButton")
 local OpenedFrame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local ClosedFrame = Instance.new("Frame")
@@ -131,7 +119,7 @@ VehicleManipulation.Parent = ButtonsFrame
 VehicleManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 VehicleManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 VehicleManipulation.BorderSizePixel = 3
-VehicleManipulation.Position = UDim2.new(0.545352161, 0, 0.0731733739, 0)
+VehicleManipulation.Position = UDim2.new(0.550230205, 0, 0.119469665, 0)
 VehicleManipulation.Size = UDim2.new(0, 85, 0, 30)
 VehicleManipulation.Font = Enum.Font.Code
 VehicleManipulation.Text = "Vehicle Manipulation"
@@ -145,7 +133,7 @@ CharacterManipulation.Parent = ButtonsFrame
 CharacterManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 CharacterManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 CharacterManipulation.BorderSizePixel = 3
-CharacterManipulation.Position = UDim2.new(0.0477911606, 0, 0.0764746368, 0)
+CharacterManipulation.Position = UDim2.new(0.0477911606, 0, 0.122770928, 0)
 CharacterManipulation.Size = UDim2.new(0, 90, 0, 30)
 CharacterManipulation.Font = Enum.Font.Code
 CharacterManipulation.Text = "Character Manipulation"
@@ -159,7 +147,7 @@ MoneyManipulation.Parent = ButtonsFrame
 MoneyManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 MoneyManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 MoneyManipulation.BorderSizePixel = 3
-MoneyManipulation.Position = UDim2.new(0.0477911606, 0, 0.289630622, 0)
+MoneyManipulation.Position = UDim2.new(0.0477911606, 0, 0.340556562, 0)
 MoneyManipulation.Size = UDim2.new(0, 90, 0, 30)
 MoneyManipulation.Font = Enum.Font.Code
 MoneyManipulation.Text = "Money Manipulation"
@@ -173,7 +161,7 @@ WeaponManipulation.Parent = ButtonsFrame
 WeaponManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 WeaponManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 WeaponManipulation.BorderSizePixel = 3
-WeaponManipulation.Position = UDim2.new(0.545352161, 0, 0.289630622, 0)
+WeaponManipulation.Position = UDim2.new(0.550230205, 0, 0.340556562, 0)
 WeaponManipulation.Size = UDim2.new(0, 84, 0, 30)
 WeaponManipulation.Font = Enum.Font.Code
 WeaponManipulation.Text = "Weapon Manipulation"
@@ -187,7 +175,7 @@ MiscellaneousManipulation.Parent = ButtonsFrame
 MiscellaneousManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 MiscellaneousManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 MiscellaneousManipulation.BorderSizePixel = 3
-MiscellaneousManipulation.Position = UDim2.new(0.545352161, 0, 0.488704681, 0)
+MiscellaneousManipulation.Position = UDim2.new(0.540474117, 0, 0.558149159, 0)
 MiscellaneousManipulation.Size = UDim2.new(0, 86, 0, 31)
 MiscellaneousManipulation.Font = Enum.Font.Code
 MiscellaneousManipulation.Text = "Miscellaneous Manipulation"
@@ -201,7 +189,7 @@ RobberyManipulation.Parent = ButtonsFrame
 RobberyManipulation.BackgroundColor3 = Color3.new(0, 0, 0)
 RobberyManipulation.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 RobberyManipulation.BorderSizePixel = 3
-RobberyManipulation.Position = UDim2.new(0.0479431525, 0, 0.488704681, 0)
+RobberyManipulation.Position = UDim2.new(0.0430651046, 0, 0.558149159, 0)
 RobberyManipulation.Size = UDim2.new(0, 89, 0, 31)
 RobberyManipulation.Font = Enum.Font.Code
 RobberyManipulation.Text = "Robbery Manipulation"
@@ -221,20 +209,6 @@ TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 13
 TextLabel.TextWrapped = true
-
-CarChangeManipulationTab.Name = "Car Change Manipulation Tab"
-CarChangeManipulationTab.Parent = ButtonsFrame
-CarChangeManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
-CarChangeManipulationTab.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-CarChangeManipulationTab.BorderSizePixel = 3
-CarChangeManipulationTab.Position = UDim2.new(0.286815584, 0, 0.683149099, 0)
-CarChangeManipulationTab.Size = UDim2.new(0, 86, 0, 31)
-CarChangeManipulationTab.Font = Enum.Font.Code
-CarChangeManipulationTab.Text = "Car Kill"
-CarChangeManipulationTab.TextColor3 = Color3.new(1, 1, 1)
-CarChangeManipulationTab.TextScaled = true
-CarChangeManipulationTab.TextSize = 14
-CarChangeManipulationTab.TextWrapped = true
 
 CharacterManipulationTab.Name = "Character Manipulation Tab"
 CharacterManipulationTab.Parent = MainFrame
@@ -770,48 +744,6 @@ DiedMessage.Text = ""
 DiedMessage.TextColor3 = Color3.new(1, 1, 1)
 DiedMessage.TextSize = 14
 
-Teleport.Name = "Teleport"
-Teleport.Parent = MiscellaneousManipulationTab
-Teleport.BackgroundColor3 = Color3.new(0, 0, 0)
-Teleport.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-Teleport.BorderSizePixel = 5
-Teleport.Position = UDim2.new(0.0702492893, 0, 0.557048976, 0)
-Teleport.Size = UDim2.new(0, 80, 0, 36)
-Teleport.Font = Enum.Font.Code
-Teleport.Text = "Teleport to Shipment Place"
-Teleport.TextColor3 = Color3.new(1, 1, 1)
-Teleport.TextScaled = true
-Teleport.TextSize = 14
-Teleport.TextWrapped = true
-
-BuildShipmentFactory.Name = "Build Shipment Factory"
-BuildShipmentFactory.Parent = MiscellaneousManipulationTab
-BuildShipmentFactory.BackgroundColor3 = Color3.new(0, 0, 0)
-BuildShipmentFactory.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-BuildShipmentFactory.BorderSizePixel = 5
-BuildShipmentFactory.Position = UDim2.new(0.533663929, 0, 0.557048917, 0)
-BuildShipmentFactory.Size = UDim2.new(0, 80, 0, 36)
-BuildShipmentFactory.Font = Enum.Font.Code
-BuildShipmentFactory.Text = "Build Shipment Factory"
-BuildShipmentFactory.TextColor3 = Color3.new(1, 1, 1)
-BuildShipmentFactory.TextScaled = true
-BuildShipmentFactory.TextSize = 14
-BuildShipmentFactory.TextWrapped = true
-
-AutoShipment.Name = "AutoShipment"
-AutoShipment.Parent = MiscellaneousManipulationTab
-AutoShipment.BackgroundColor3 = Color3.new(0, 0, 0)
-AutoShipment.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-AutoShipment.BorderSizePixel = 5
-AutoShipment.Position = UDim2.new(0.326829255, 0, 0.80092591, 0)
-AutoShipment.Size = UDim2.new(0, 122, 0, 36)
-AutoShipment.Font = Enum.Font.Code
-AutoShipment.Text = "Auto Shipment"
-AutoShipment.TextColor3 = Color3.new(1, 1, 1)
-AutoShipment.TextScaled = true
-AutoShipment.TextSize = 14
-AutoShipment.TextWrapped = true
-
 RobberyManipulationTab.Name = "Robbery Manipulation Tab"
 RobberyManipulationTab.Parent = MainFrame
 RobberyManipulationTab.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -949,38 +881,12 @@ ChangeAllCarsHeighttoMax.TextScaled = true
 ChangeAllCarsHeighttoMax.TextSize = 14
 ChangeAllCarsHeighttoMax.TextWrapped = true
 
-TextBox.Parent = VehicleManipulationTab2
-TextBox.BackgroundColor3 = Color3.new(0, 0, 0)
-TextBox.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-TextBox.BorderSizePixel = 5
-TextBox.Position = UDim2.new(0.0682926849, 0, 0.314814806, 0)
-TextBox.Size = UDim2.new(0, 107, 0, 50)
-TextBox.Font = Enum.Font.Code
-TextBox.PlaceholderText = "All Cars Color"
-TextBox.Text = ""
-TextBox.TextColor3 = Color3.new(1, 1, 1)
-TextBox.TextSize = 14
-
-GO.Name = "GO"
-GO.Parent = VehicleManipulationTab2
-GO.BackgroundColor3 = Color3.new(0, 0, 0)
-GO.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-GO.BorderSizePixel = 3
-GO.Position = UDim2.new(0.623400867, 0, 0.31258589, 0)
-GO.Size = UDim2.new(0, 49, 0, 50)
-GO.Font = Enum.Font.Code
-GO.Text = "GO"
-GO.TextColor3 = Color3.new(1, 1, 1)
-GO.TextScaled = true
-GO.TextSize = 14
-GO.TextWrapped = true
-
 GiveAllCarsBomb.Name = "Give All Cars Bomb"
 GiveAllCarsBomb.Parent = VehicleManipulationTab2
 GiveAllCarsBomb.BackgroundColor3 = Color3.new(0, 0, 0)
 GiveAllCarsBomb.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
 GiveAllCarsBomb.BorderSizePixel = 3
-GiveAllCarsBomb.Position = UDim2.new(0.0673033148, 0, 0.613511801, 0)
+GiveAllCarsBomb.Position = UDim2.new(0.0721813664, 0, 0.382030308, 0)
 GiveAllCarsBomb.Size = UDim2.new(0, 168, 0, 35)
 GiveAllCarsBomb.Font = Enum.Font.Code
 GiveAllCarsBomb.Text = "Give All Cars Bomb"
@@ -988,94 +894,6 @@ GiveAllCarsBomb.TextColor3 = Color3.new(1, 1, 1)
 GiveAllCarsBomb.TextScaled = true
 GiveAllCarsBomb.TextSize = 14
 GiveAllCarsBomb.TextWrapped = true
-
-CarChangeManipulationTab_2.Name = "Car Change Manipulation Tab"
-CarChangeManipulationTab_2.Parent = MainFrame
-CarChangeManipulationTab_2.BackgroundColor3 = Color3.new(0, 0, 0)
-CarChangeManipulationTab_2.BorderColor3 = Color3.new(1, 1, 1)
-CarChangeManipulationTab_2.BorderSizePixel = 5
-CarChangeManipulationTab_2.Position = UDim2.new(0.0743453726, 0, 0.0648918748, 0)
-CarChangeManipulationTab_2.Size = UDim2.new(0, 205, 0, 216)
-CarChangeManipulationTab_2.Visible = false
-
-TopTitle_9.Name = "TopTitle"
-TopTitle_9.Parent = CarChangeManipulationTab_2
-TopTitle_9.BackgroundColor3 = Color3.new(0, 0, 0)
-TopTitle_9.BorderSizePixel = 0
-TopTitle_9.Position = UDim2.new(0.0722819269, 0, -0.0747528076, 0)
-TopTitle_9.Size = UDim2.new(0, 175, 0, 25)
-TopTitle_9.Font = Enum.Font.Code
-TopTitle_9.Text = "Car Change Manipulation"
-TopTitle_9.TextColor3 = Color3.new(1, 1, 1)
-TopTitle_9.TextSize = 14
-
-Back_8.Name = "Back"
-Back_8.Parent = CarChangeManipulationTab_2
-Back_8.BackgroundColor3 = Color3.new(0, 0, 0)
-Back_8.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-Back_8.BorderSizePixel = 3
-Back_8.Position = UDim2.new(0.0380350277, 0, 0.900548875, 0)
-Back_8.Size = UDim2.new(0, 48, 0, 15)
-Back_8.Font = Enum.Font.Code
-Back_8.Text = "Back"
-Back_8.TextColor3 = Color3.new(1, 1, 1)
-Back_8.TextScaled = true
-Back_8.TextSize = 14
-Back_8.TextWrapped = true
-
-Kill.Name = "Kill"
-Kill.Parent = CarChangeManipulationTab_2
-Kill.BackgroundColor3 = Color3.new(0, 0, 0)
-Kill.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-Kill.BorderSizePixel = 3
-Kill.Position = UDim2.new(0.0721813664, 0, 0.0996227935, 0)
-Kill.Size = UDim2.new(0, 76, 0, 30)
-Kill.Font = Enum.Font.Code
-Kill.Text = "Kill"
-Kill.TextColor3 = Color3.new(1, 1, 1)
-Kill.TextSize = 14
-Kill.TextWrapped = true
-
-BuildSportsCarRoofGarage.Name = "Build Sports Car Roof Garage"
-BuildSportsCarRoofGarage.Parent = CarChangeManipulationTab_2
-BuildSportsCarRoofGarage.BackgroundColor3 = Color3.new(0, 0, 0)
-BuildSportsCarRoofGarage.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-BuildSportsCarRoofGarage.BorderSizePixel = 3
-BuildSportsCarRoofGarage.Position = UDim2.new(0.569742322, 0, 0.0996227935, 0)
-BuildSportsCarRoofGarage.Size = UDim2.new(0, 76, 0, 30)
-BuildSportsCarRoofGarage.Font = Enum.Font.Code
-BuildSportsCarRoofGarage.Text = "Build Sports Car Roof Garage"
-BuildSportsCarRoofGarage.TextColor3 = Color3.new(1, 1, 1)
-BuildSportsCarRoofGarage.TextScaled = true
-BuildSportsCarRoofGarage.TextSize = 14
-BuildSportsCarRoofGarage.TextWrapped = true
-
-AddRoofRemover.Name = "Add Roof Remover"
-AddRoofRemover.Parent = CarChangeManipulationTab_2
-AddRoofRemover.BackgroundColor3 = Color3.new(0, 0, 0)
-AddRoofRemover.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-AddRoofRemover.BorderSizePixel = 3
-AddRoofRemover.Position = UDim2.new(0.0721813664, 0, 0.317215383, 0)
-AddRoofRemover.Size = UDim2.new(0, 76, 0, 30)
-AddRoofRemover.Font = Enum.Font.Code
-AddRoofRemover.Text = "Add Roof Remover"
-AddRoofRemover.TextColor3 = Color3.new(1, 1, 1)
-AddRoofRemover.TextSize = 14
-AddRoofRemover.TextWrapped = true
-
-RemoveRoofRemover.Name = "Remove Roof Remover"
-RemoveRoofRemover.Parent = CarChangeManipulationTab_2
-RemoveRoofRemover.BackgroundColor3 = Color3.new(0, 0, 0)
-RemoveRoofRemover.BorderColor3 = Color3.new(0.494118, 0.494118, 0.494118)
-RemoveRoofRemover.BorderSizePixel = 3
-RemoveRoofRemover.Position = UDim2.new(0.569742322, 0, 0.317215383, 0)
-RemoveRoofRemover.Size = UDim2.new(0, 76, 0, 30)
-RemoveRoofRemover.Font = Enum.Font.Code
-RemoveRoofRemover.Text = "Remove Roof Remover"
-RemoveRoofRemover.TextColor3 = Color3.new(1, 1, 1)
-RemoveRoofRemover.TextScaled = true
-RemoveRoofRemover.TextSize = 14
-RemoveRoofRemover.TextWrapped = true
 
 OpenedFrame.Name = "Opened Frame"
 OpenedFrame.Parent = LEGUI
@@ -1119,7 +937,7 @@ AutoExecute.Parent = LEGUI
 	 Scripts:
 --]]
 
-local function MXZX_fake_script() -- VehicleManipulation.LocalScript 
+local function NGNYC_fake_script() -- VehicleManipulation.LocalScript 
 	local script = Instance.new('LocalScript', VehicleManipulation)
 
 	
@@ -1130,8 +948,8 @@ local function MXZX_fake_script() -- VehicleManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(MXZX_fake_script)()
-local function UMZNM_fake_script() -- CharacterManipulation.LocalScript 
+coroutine.wrap(NGNYC_fake_script)()
+local function YNOH_fake_script() -- CharacterManipulation.LocalScript 
 	local script = Instance.new('LocalScript', CharacterManipulation)
 
 	
@@ -1142,8 +960,8 @@ local function UMZNM_fake_script() -- CharacterManipulation.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UMZNM_fake_script)()
-local function PYESL_fake_script() -- MoneyManipulation.LocalScript 
+coroutine.wrap(YNOH_fake_script)()
+local function KZMVXQB_fake_script() -- MoneyManipulation.LocalScript 
 	local script = Instance.new('LocalScript', MoneyManipulation)
 
 	
@@ -1154,8 +972,8 @@ local function PYESL_fake_script() -- MoneyManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(PYESL_fake_script)()
-local function DMPQQU_fake_script() -- WeaponManipulation.LocalScript 
+coroutine.wrap(KZMVXQB_fake_script)()
+local function VPNZ_fake_script() -- WeaponManipulation.LocalScript 
 	local script = Instance.new('LocalScript', WeaponManipulation)
 
 	
@@ -1167,8 +985,8 @@ local function DMPQQU_fake_script() -- WeaponManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(DMPQQU_fake_script)()
-local function YULO_fake_script() -- MiscellaneousManipulation.LocalScript 
+coroutine.wrap(VPNZ_fake_script)()
+local function KKLJ_fake_script() -- MiscellaneousManipulation.LocalScript 
 	local script = Instance.new('LocalScript', MiscellaneousManipulation)
 
 	
@@ -1179,8 +997,8 @@ local function YULO_fake_script() -- MiscellaneousManipulation.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(YULO_fake_script)()
-local function TORWBV_fake_script() -- RobberyManipulation.LocalScript 
+coroutine.wrap(KKLJ_fake_script)()
+local function GZNZYF_fake_script() -- RobberyManipulation.LocalScript 
 	local script = Instance.new('LocalScript', RobberyManipulation)
 
 	
@@ -1192,20 +1010,8 @@ local function TORWBV_fake_script() -- RobberyManipulation.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(TORWBV_fake_script)()
-local function KMHXT_fake_script() -- CarChangeManipulationTab.LocalScript 
-	local script = Instance.new('LocalScript', CarChangeManipulationTab)
-
-	
-	function onButtonClicked()
-	script.Parent.Parent.Visible = false
-	game.CoreGui.LEGUI.MainFrame["Car Change Manipulation Tab"].Visible = true
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(KMHXT_fake_script)()
-local function HQQUNO_fake_script() -- SpeedBypass.LocalScript 
+coroutine.wrap(GZNZYF_fake_script)()
+local function SPZGOQ_fake_script() -- SpeedBypass.LocalScript 
 	local script = Instance.new('LocalScript', SpeedBypass)
 
 	
@@ -1217,8 +1023,8 @@ local function HQQUNO_fake_script() -- SpeedBypass.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(HQQUNO_fake_script)()
-local function WIGWC_fake_script() -- Back.LocalScript 
+coroutine.wrap(SPZGOQ_fake_script)()
+local function NZXHFD_fake_script() -- Back.LocalScript 
 	local script = Instance.new('LocalScript', Back)
 
 	
@@ -1228,8 +1034,8 @@ local function WIGWC_fake_script() -- Back.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(WIGWC_fake_script)()
-local function ZTEOGE_fake_script() -- FlyBypass.LocalScript 
+coroutine.wrap(NZXHFD_fake_script)()
+local function MOVMUVZ_fake_script() -- FlyBypass.LocalScript 
 	local script = Instance.new('LocalScript', FlyBypass)
 
 	
@@ -1241,8 +1047,8 @@ local function ZTEOGE_fake_script() -- FlyBypass.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ZTEOGE_fake_script)()
-local function GOIOD_fake_script() -- ServersidedNoFace.LocalScript 
+coroutine.wrap(MOVMUVZ_fake_script)()
+local function XRQL_fake_script() -- ServersidedNoFace.LocalScript 
 	local script = Instance.new('LocalScript', ServersidedNoFace)
 
 	
@@ -1257,8 +1063,8 @@ local function GOIOD_fake_script() -- ServersidedNoFace.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(GOIOD_fake_script)()
-local function WUWSA_fake_script() -- ServersidedNoHats.LocalScript 
+coroutine.wrap(XRQL_fake_script)()
+local function AXNWO_fake_script() -- ServersidedNoHats.LocalScript 
 	local script = Instance.new('LocalScript', ServersidedNoHats)
 
 	
@@ -1272,8 +1078,8 @@ local function WUWSA_fake_script() -- ServersidedNoHats.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(WUWSA_fake_script)()
-local function SUIR_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(AXNWO_fake_script)()
+local function XCWYHQ_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	
@@ -1284,8 +1090,8 @@ local function SUIR_fake_script() -- InfiniteYield.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(SUIR_fake_script)()
-local function ZVTN_fake_script() -- MtoHealKeybind.LocalScript 
+coroutine.wrap(XCWYHQ_fake_script)()
+local function NXUZGOB_fake_script() -- MtoHealKeybind.LocalScript 
 	local script = Instance.new('LocalScript', MtoHealKeybind)
 
 	
@@ -1307,8 +1113,8 @@ local function ZVTN_fake_script() -- MtoHealKeybind.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ZVTN_fake_script)()
-local function AGFIGEF_fake_script() -- AutoHeal.LocalScript 
+coroutine.wrap(NXUZGOB_fake_script)()
+local function TOHOW_fake_script() -- AutoHeal.LocalScript 
 	local script = Instance.new('LocalScript', AutoHeal)
 
 	
@@ -1329,8 +1135,8 @@ local function AGFIGEF_fake_script() -- AutoHeal.LocalScript
 	
 	
 end
-coroutine.wrap(AGFIGEF_fake_script)()
-local function OLEA_fake_script() -- Back_2.LocalScript 
+coroutine.wrap(TOHOW_fake_script)()
+local function TDWO_fake_script() -- Back_2.LocalScript 
 	local script = Instance.new('LocalScript', Back_2)
 
 	
@@ -1341,8 +1147,8 @@ local function OLEA_fake_script() -- Back_2.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(OLEA_fake_script)()
-local function UCVC_fake_script() -- RemotelyBuyACarBomb.LocalScript 
+coroutine.wrap(TDWO_fake_script)()
+local function MKWML_fake_script() -- RemotelyBuyACarBomb.LocalScript 
 	local script = Instance.new('LocalScript', RemotelyBuyACarBomb)
 
 	
@@ -1362,8 +1168,8 @@ local function UCVC_fake_script() -- RemotelyBuyACarBomb.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UCVC_fake_script)()
-local function JCLYL_fake_script() -- LeftFront.LocalScript 
+coroutine.wrap(MKWML_fake_script)()
+local function UQNHXJI_fake_script() -- LeftFront.LocalScript 
 	local script = Instance.new('LocalScript', LeftFront)
 
 	
@@ -1379,8 +1185,8 @@ local function JCLYL_fake_script() -- LeftFront.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(JCLYL_fake_script)()
-local function OIXORU_fake_script() -- RightFront.LocalScript 
+coroutine.wrap(UQNHXJI_fake_script)()
+local function ZJSNEF_fake_script() -- RightFront.LocalScript 
 	local script = Instance.new('LocalScript', RightFront)
 
 	
@@ -1398,8 +1204,8 @@ local function OIXORU_fake_script() -- RightFront.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(OIXORU_fake_script)()
-local function ADPILB_fake_script() -- RightBack.LocalScript 
+coroutine.wrap(ZJSNEF_fake_script)()
+local function ECPF_fake_script() -- RightBack.LocalScript 
 	local script = Instance.new('LocalScript', RightBack)
 
 	
@@ -1414,8 +1220,8 @@ local function ADPILB_fake_script() -- RightBack.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ADPILB_fake_script)()
-local function YBUTP_fake_script() -- LeftBack.LocalScript 
+coroutine.wrap(ECPF_fake_script)()
+local function IPOSPR_fake_script() -- LeftBack.LocalScript 
 	local script = Instance.new('LocalScript', LeftBack)
 
 	
@@ -1430,8 +1236,8 @@ local function YBUTP_fake_script() -- LeftBack.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(YBUTP_fake_script)()
-local function HXZKN_fake_script() -- UnlockAllCarDoors.LocalScript 
+coroutine.wrap(IPOSPR_fake_script)()
+local function SQZJ_fake_script() -- UnlockAllCarDoors.LocalScript 
 	local script = Instance.new('LocalScript', UnlockAllCarDoors)
 
 	
@@ -1448,8 +1254,8 @@ local function HXZKN_fake_script() -- UnlockAllCarDoors.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(HXZKN_fake_script)()
-local function ZTMSM_fake_script() -- RemotelySprayCar.LocalScript 
+coroutine.wrap(SQZJ_fake_script)()
+local function RGYZE_fake_script() -- RemotelySprayCar.LocalScript 
 	local script = Instance.new('LocalScript', RemotelySprayCar)
 
 	
@@ -1465,8 +1271,8 @@ local function ZTMSM_fake_script() -- RemotelySprayCar.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ZTMSM_fake_script)()
-local function NSBIOA_fake_script() -- ToPage2.LocalScript 
+coroutine.wrap(RGYZE_fake_script)()
+local function HDQBF_fake_script() -- ToPage2.LocalScript 
 	local script = Instance.new('LocalScript', ToPage2)
 
 	
@@ -1480,8 +1286,8 @@ local function NSBIOA_fake_script() -- ToPage2.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(NSBIOA_fake_script)()
-local function UTOTK_fake_script() -- Back_3.LocalScript 
+coroutine.wrap(HDQBF_fake_script)()
+local function XWLXFJN_fake_script() -- Back_3.LocalScript 
 	local script = Instance.new('LocalScript', Back_3)
 
 	
@@ -1492,8 +1298,8 @@ local function UTOTK_fake_script() -- Back_3.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UTOTK_fake_script)()
-local function MZCUF_fake_script() -- BringATM.LocalScript 
+coroutine.wrap(XWLXFJN_fake_script)()
+local function ZKZMC_fake_script() -- BringATM.LocalScript 
 	local script = Instance.new('LocalScript', BringATM)
 
 	
@@ -1510,8 +1316,8 @@ local function MZCUF_fake_script() -- BringATM.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(MZCUF_fake_script)()
-local function BWJH_fake_script() -- BringDroppedCash.LocalScript 
+coroutine.wrap(ZKZMC_fake_script)()
+local function NJBE_fake_script() -- BringDroppedCash.LocalScript 
 	local script = Instance.new('LocalScript', BringDroppedCash)
 
 	
@@ -1526,8 +1332,8 @@ local function BWJH_fake_script() -- BringDroppedCash.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(BWJH_fake_script)()
-local function YBQM_fake_script() -- Back_4.LocalScript 
+coroutine.wrap(NJBE_fake_script)()
+local function WLEHEA_fake_script() -- Back_4.LocalScript 
 	local script = Instance.new('LocalScript', Back_4)
 
 	
@@ -1539,8 +1345,8 @@ local function YBQM_fake_script() -- Back_4.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(YBQM_fake_script)()
-local function BLNRC_fake_script() -- AutomaticBarret50Cal.LocalScript 
+coroutine.wrap(WLEHEA_fake_script)()
+local function JKQQLF_fake_script() -- AutomaticBarret50Cal.LocalScript 
 	local script = Instance.new('LocalScript', AutomaticBarret50Cal)
 
 	
@@ -1555,8 +1361,8 @@ local function BLNRC_fake_script() -- AutomaticBarret50Cal.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(BLNRC_fake_script)()
-local function RRAIY_fake_script() -- Automatic44Magnum.LocalScript 
+coroutine.wrap(JKQQLF_fake_script)()
+local function PLNY_fake_script() -- Automatic44Magnum.LocalScript 
 	local script = Instance.new('LocalScript', Automatic44Magnum)
 
 	
@@ -1571,8 +1377,8 @@ local function RRAIY_fake_script() -- Automatic44Magnum.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(RRAIY_fake_script)()
-local function XGTEW_fake_script() -- FastRPG7.LocalScript 
+coroutine.wrap(PLNY_fake_script)()
+local function TFHVXX_fake_script() -- FastRPG7.LocalScript 
 	local script = Instance.new('LocalScript', FastRPG7)
 
 	
@@ -1587,8 +1393,8 @@ local function XGTEW_fake_script() -- FastRPG7.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(XGTEW_fake_script)()
-local function HHGXHV_fake_script() -- Aimbot.LocalScript 
+coroutine.wrap(TFHVXX_fake_script)()
+local function BNTVQLF_fake_script() -- Aimbot.LocalScript 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	
@@ -1975,8 +1781,8 @@ local function HHGXHV_fake_script() -- Aimbot.LocalScript
 		end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(HHGXHV_fake_script)()
-local function IXWQ_fake_script() -- BuyBarret50CalM4A1.LocalScript 
+coroutine.wrap(BNTVQLF_fake_script)()
+local function NEVSP_fake_script() -- BuyBarret50CalM4A1.LocalScript 
 	local script = Instance.new('LocalScript', BuyBarret50CalM4A1)
 
 	
@@ -1992,8 +1798,8 @@ local function IXWQ_fake_script() -- BuyBarret50CalM4A1.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(IXWQ_fake_script)()
-local function FKIEI_fake_script() -- Back_5.LocalScript 
+coroutine.wrap(NEVSP_fake_script)()
+local function BMGUNVS_fake_script() -- Back_5.LocalScript 
 	local script = Instance.new('LocalScript', Back_5)
 
 	
@@ -2004,8 +1810,8 @@ local function FKIEI_fake_script() -- Back_5.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(FKIEI_fake_script)()
-local function UTDME_fake_script() -- BountyJob.LocalScript 
+coroutine.wrap(BMGUNVS_fake_script)()
+local function JHUJ_fake_script() -- BountyJob.LocalScript 
 	local script = Instance.new('LocalScript', BountyJob)
 
 	
@@ -2018,8 +1824,8 @@ local function UTDME_fake_script() -- BountyJob.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UTDME_fake_script)()
-local function SNQNGN_fake_script() -- DiedMessage.LocalScript 
+coroutine.wrap(JHUJ_fake_script)()
+local function LBOMBK_fake_script() -- DiedMessage.LocalScript 
 	local script = Instance.new('LocalScript', DiedMessage)
 
 	
@@ -2036,444 +1842,8 @@ local function SNQNGN_fake_script() -- DiedMessage.LocalScript
 	
 	
 end
-coroutine.wrap(SNQNGN_fake_script)()
-local function KFMNNB_fake_script() -- Teleport.LocalScript 
-	local script = Instance.new('LocalScript', Teleport)
-
-	
-	
-	
-	function onButtonClicked()
-	local target = CFrame.new(-885.607788, 7.60004473, -1130.63574) --could be near a brick or in a new area
-			for i, player in ipairs(game:GetService("Players"):GetChildren()) do
-			   --Make sure the character exists and its HumanoidRootPart exists
-			   if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-			       --add an offset of 5 for each character
-			      player.Character.HumanoidRootPart.CFrame = target 
-			   end
-			end	
-	end
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(KFMNNB_fake_script)()
-local function GGJCFGH_fake_script() -- BuildShipmentFactory.LocalScript 
-	local script = Instance.new('LocalScript', BuildShipmentFactory)
-
-	
-	
-	
-	function onButtonClicked()
-	--FRB--
-	
-	--LEFT SIDE
-	FRBLEFTSIDE = Instance.new("Part", workspace)
-	FRBLEFTSIDE.Position = Vector3.new(-967, 5.1, -1072)
-	FRBLEFTSIDE.Size = Vector3.new(22, 5, 2)
-	FRBLEFTSIDE.Anchored = true
-	
-	--RIGHT SIDE
-	FRBRIGHTSIDE = Instance.new("Part", workspace)
-	FRBRIGHTSIDE.Position = Vector3.new(-967, 5.1, -1091)
-	FRBRIGHTSIDE.Size = Vector3.new(22, 5, 2)
-	FRBRIGHTSIDE.Anchored = true
-	
-	--BOTTOM SIDE
-	FRBBOTTOMSIDE = Instance.new("Part", workspace)
-	FRBBOTTOMSIDE.Position = Vector3.new(-957, 5.1, -1080.5)
-	FRBBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
-	FRBBOTTOMSIDE.Anchored = true
-	
-	--TOP SIDE
-	FRBTOPSIDE = Instance.new("Part", workspace)
-	FRBTOPSIDE.Position = Vector3.new(-977, 5.1, -1081.5)
-	FRBTOPSIDE.Size = Vector3.new(2, 5, 17)
-	FRBTOPSIDE.Anchored = true
-	
-	--F LETTER--
-	F1 = Instance.new("Part", workspace)
-	F1.Position = Vector3.new(-977.85, 7.6, -1078.5)
-	F1.Size = Vector3.new(1, 0.1, 0.3)
-	F1.Orientation = Vector3.new(0, -90, 0)
-	F1.Anchored = true
-	F1.BrickColor = BrickColor.new("Really black")
-	--
-	F2 = Instance.new("Part", workspace)
-	F2.Position = Vector3.new(-976.85, 7.6, -1078.5)
-	F2.Orientation = Vector3.new(0, -90, 0)
-	F2.Size = Vector3.new(1, 0.1, 0.3)
-	F2.Anchored = true
-	F2.BrickColor = BrickColor.new("Really black")
-	--
-	F3 = Instance.new("Part", workspace)
-	F3.Position = Vector3.new(-977, 7.6, -1078)
-	F3.Size = Vector3.new(2, 0.1, 0.3)
-	F3.Anchored = true
-	F3.BrickColor = BrickColor.new("Really black")
-	
-	--R LETTER--
-	R1 = Instance.new("Part", workspace)
-	R1.Position = Vector3.new(-977, 7.6, -1080)
-	R1.Size = Vector3.new(2, 0.1, 0.3)
-	R1.Anchored = true
-	R1.BrickColor = BrickColor.new("Really black")
-	--
-	R2 = Instance.new("Part", workspace)
-	R2.Position = Vector3.new(-977.85, 7.6, -1080.5)
-	R2.Size = Vector3.new(1, 0.1, 0.3)
-	R2.Orientation = Vector3.new(0, -90, 0)
-	R2.Anchored = true
-	R2.BrickColor = BrickColor.new("Really black")
-	--
-	R3 = Instance.new("Part", workspace)
-	R3.Position = Vector3.new(-976.85, 7.6, -1080.5)
-	R3.Size = Vector3.new(1, 0.1, 0.3)
-	R3.Orientation = Vector3.new(0, -90, 0)
-	R3.Anchored = true
-	R3.BrickColor = BrickColor.new("Really black")
-	--
-	R4 = Instance.new("Part", workspace)
-	R4.Position = Vector3.new(-977.35, 7.6, -1081)
-	R4.Size = Vector3.new(1.3, 0.1, 0.3)
-	R4.Anchored = true
-	R4.BrickColor = BrickColor.new("Really black")
-	--
-	R5 = Instance.new("Part", workspace)
-	R5.Position = Vector3.new(-976.4, 7.6, -1080.5)
-	R5.Size = Vector3.new(1, 0.1, 0.3)
-	R5.Orientation = Vector3.new(0, -135, 0)
-	R5.Anchored = true
-	R5.BrickColor = BrickColor.new("Really black")
-	
-	--B LETTER--
-	B1 = Instance.new("Part", workspace)
-	B1.Position = Vector3.new(-977, 7.6, -1082)
-	B1.Size = Vector3.new(2, 0.1, 0.3)
-	B1.Anchored = true
-	B1.BrickColor = BrickColor.new("Really black")
-	--
-	B2 = Instance.new("Part", workspace)
-	B2.Position = Vector3.new(-977.85, 7.6, -1082.5)
-	B2.Size = Vector3.new(1, 0.1, 0.3)
-	B2.Orientation = Vector3.new(0, -90, 0)
-	B2.Anchored = true
-	B2.BrickColor = BrickColor.new("Really black")
-	--
-	B3 = Instance.new("Part", workspace)
-	B3.Position = Vector3.new(-976.85, 7.6, -1082.5)
-	B3.Size = Vector3.new(1, 0.1, 0.3)
-	B3.Orientation = Vector3.new(0, -90, 0)
-	B3.Anchored = true
-	B3.BrickColor = BrickColor.new("Really black")
-	--
-	B4 = Instance.new("Part", workspace)
-	B4.Position = Vector3.new(-976.17, 7.6, -1082.5)
-	B4.Size = Vector3.new(1, 0.1, 0.3)
-	B4.Orientation = Vector3.new(0, -90, 0)
-	B4.Anchored = true
-	B4.BrickColor = BrickColor.new("Really black")
-	--
-	B5 = Instance.new("Part", workspace)
-	B5.Position = Vector3.new(-976.67, 7.6, -1083)
-	B5.Size = Vector3.new(1.3, 0.1, 0.3)
-	B5.Anchored = true
-	B5.BrickColor = BrickColor.new("Really black")
-	--
-	B6 = Instance.new("Part", workspace)
-	B6.Position = Vector3.new(-977.35, 7.6, -1083)
-	B6.Size = Vector3.new(1.3, 0.1, 0.3)
-	B6.Anchored = true
-	B6.BrickColor = BrickColor.new("Really black")
-	
-	--ON TOUCH BRICK--
-	local FRBONTOUCH = game.Workspace.DropoffPointCB2.ItemInteract
-	FRBONTOUCH.Position = Vector3.new(-967, 4.6, -1081.5)
-	FRBONTOUCH.Orientation = Vector3.new(0,0,0)
-	FRBONTOUCH.Size = Vector3.new(18, 3.5, 17)
-	FRBONTOUCH.BrickColor = BrickColor.new("Really black")
-	--------------------------------------------------------------------
-	
-	--WF--
-	
-	--LEFT SIDE
-	WFLEFTSIDE = Instance.new("Part", workspace)
-	WFLEFTSIDE.Position = Vector3.new(-967, 5.1, -1093)
-	WFLEFTSIDE.Size = Vector3.new(22, 5, 2)
-	WFLEFTSIDE.Anchored = true
-	
-	--RIGHT SIDE
-	WFRIGHTSIDE = Instance.new("Part", workspace)
-	WFRIGHTSIDE.Position = Vector3.new(-967, 5.1, -1112)
-	WFRIGHTSIDE.Size = Vector3.new(22, 5, 2)
-	WFRIGHTSIDE.Anchored = true
-	
-	--BOTTOM SIDE
-	WFBOTTOMSIDE = Instance.new("Part", workspace)
-	WFBOTTOMSIDE.Position = Vector3.new(-957, 5.1, -1101.5)
-	WFBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
-	WFBOTTOMSIDE.Anchored = true
-	
-	--TOP SIDE
-	WFTOPSIDE = Instance.new("Part", workspace)
-	WFTOPSIDE.Position = Vector3.new(-977, 5.1, -1102.5)
-	WFTOPSIDE.Size = Vector3.new(2, 5, 17)
-	WFTOPSIDE.Anchored = true
-	
-	--W LETTER--
-	W1 = Instance.new("Part", workspace)
-	W1.Position = Vector3.new(-977, 7.6, -1100)
-	W1.Size = Vector3.new(2, 0.1, 0.3)
-	W1.Anchored = true
-	W1.BrickColor = BrickColor.new("Really black")
-	--
-	W2 = Instance.new("Part", workspace)
-	W2.Position = Vector3.new(-976.17, 7.6, -1100.5)
-	W2.Orientation = Vector3.new(0, -90, 0)
-	W2.Size = Vector3.new(1, 0.1, 0.3)
-	W2.Anchored = true
-	W2.BrickColor = BrickColor.new("Really black")
-	--
-	W3 = Instance.new("Part", workspace)
-	W3.Position = Vector3.new(-977, 7.6, -1101)
-	W3.Size = Vector3.new(2, 0.1, 0.3)
-	W3.Anchored = true
-	W3.BrickColor = BrickColor.new("Really black")
-	--
-	W4 = Instance.new("Part", workspace)
-	W4.Position = Vector3.new(-976.17, 7.6, -1101.5)
-	W4.Size = Vector3.new(1, 0.1, 0.3)
-	W4.Orientation = Vector3.new(0, -90, 0)
-	W4.Anchored = true
-	W4.BrickColor = BrickColor.new("Really black")
-	--
-	W5 = Instance.new("Part", workspace)
-	W5.Position = Vector3.new(-977, 7.6, -1102)
-	W5.Size = Vector3.new(2, 0.1, 0.3)
-	W5.Anchored = true
-	W5.BrickColor = BrickColor.new("Really black")
-	
-	--F LETTER--
-	F11 = Instance.new("Part", workspace)
-	F11.Position = Vector3.new(-977, 7.6, -1103)
-	F11.Size = Vector3.new(2, 0.1, 0.3)
-	F11.Anchored = true
-	F11.BrickColor = BrickColor.new("Really black")
-	--
-	F22 = Instance.new("Part", workspace)
-	F22.Position = Vector3.new(-976.85, 7.6, -1103.5)
-	F22.Size = Vector3.new(1, 0.1, 0.3)
-	F22.Orientation = Vector3.new(0, -90, 0)
-	F22.Anchored = true
-	F22.BrickColor = BrickColor.new("Really black")
-	--
-	F33 = Instance.new("Part", workspace)
-	F33.Position = Vector3.new(-977.85, 7.6, -1103.5)
-	F33.Size = Vector3.new(1, 0.1, 0.3)
-	F33.Orientation = Vector3.new(0, -90, 0)
-	F33.Anchored = true
-	F33.BrickColor = BrickColor.new("Really black")
-	--
-	--ON TOUCH BRICK--
-	local WFONTOUCH = game.Workspace.DropoffPointBoA.ItemInteract
-	WFONTOUCH.Position = Vector3.new(-967, 4.6, -1102.5)
-	WFONTOUCH.Orientation = Vector3.new(0,0,0)
-	WFONTOUCH.Size = Vector3.new(18, 3.5, 17)
-	WFONTOUCH.BrickColor = BrickColor.new("Really black")
-	
-	
-	--DONUT--
-	
-	DONUTLOGO = Instance.new("Part", workspace)
-	DONUTLOGO.Position = Vector3.new(-955, 7.65, -1092)
-	DONUTLOGO.Size = Vector3.new(2, 0.1, 2)
-	DONUTLOGO.Orientation = Vector3.new(0, -90, 0)
-	DONUTLOGO.Anchored = true
-	DONUTLOGO.BrickColor = BrickColor.new("Salmon")
-	wait(.1)
-	DONUTDECAL = Instance.new("Decal",workspace)
-	DONUTDECAL.Texture = "http://www.roblox.com/asset/?id=2098260397"
-	DONUTDECAL.Parent = DONUTLOGO
-	DONUTDECAL.Face = "Top"
-	
-	--LEFT SIDE
-	DONUTLEFTSIDE = Instance.new("Part", workspace)
-	DONUTLEFTSIDE.Position = Vector3.new(-945, 5.1, -1081)
-	DONUTLEFTSIDE.Size = Vector3.new(22, 5, 2)
-	DONUTLEFTSIDE.Anchored = true
-	
-	--RIGHT SIDE
-	DONUTRIGHTSIDE = Instance.new("Part", workspace)
-	DONUTRIGHTSIDE.Position = Vector3.new(-945, 5.1, -1100)
-	DONUTRIGHTSIDE.Size = Vector3.new(22, 5, 2)
-	DONUTRIGHTSIDE.Anchored = true
-	
-	--BOTTOM SIDE
-	DONUTBOTTOMSIDE = Instance.new("Part", workspace)
-	DONUTBOTTOMSIDE.Position = Vector3.new(-935, 5.1, -1089.5)
-	DONUTBOTTOMSIDE.Size = Vector3.new(2, 5, 19)
-	DONUTBOTTOMSIDE.Anchored = true
-	
-	--TOP SIDE
-	DONUTTOPSIDE = Instance.new("Part", workspace)
-	DONUTTOPSIDE.Position = Vector3.new(-955, 5.1, -1090.5)
-	DONUTTOPSIDE.Size = Vector3.new(2, 5, 17)
-	DONUTTOPSIDE.Anchored = true
-	
-	--ON TOUCH BRICK--
-	local DONUTONTOUCH = game.Workspace.DropoffPointDonut.ItemInteract
-	DONUTONTOUCH.Position = Vector3.new(-945, 4.6, -1090.5)
-	DONUTONTOUCH.Orientation = Vector3.new(0,0,0)
-	DONUTONTOUCH.Size = Vector3.new(18, 3.5, 17)
-	DONUTONTOUCH.BrickColor = BrickColor.new("Salmon")
-	
-	--OBSERVATIONS DECK--
-	OBFloor = Instance.new("Part", workspace)
-	OBFloor.Position = Vector3.new(-973, 23.3, -1068.5)
-	OBFloor.Size = Vector3.new(16, 1, 15)
-	OBFloor.Anchored = true
-	OBFloor.BrickColor = BrickColor.new("Medium blue")
-	OBFloor.Material = "SmoothPlastic"
-	OBFloor.CastShadow = false
-	
-	OBLeftSide = Instance.new("Part", workspace)
-	OBLeftSide.Position = Vector3.new(-965.5, 24.3, -1071)
-	OBLeftSide.Size = Vector3.new(0.5, 3, 9)
-	OBLeftSide.Anchored = true
-	OBLeftSide.BrickColor = BrickColor.new("Medium blue")
-	OBLeftSide.Material = "SmoothPlastic"
-	OBLeftSide.CastShadow = false
-	
-	OBRightSide = Instance.new("Part", workspace)
-	OBRightSide.Position = Vector3.new(-980.5, 24.3, -1066.5)
-	OBRightSide.Size = Vector3.new(0.5, 3, 18)
-	OBRightSide.Anchored = true
-	OBRightSide.BrickColor = BrickColor.new("Medium blue")
-	OBRightSide.Material = "SmoothPlastic"
-	OBRightSide.CastShadow = false
-	
-	
-	OBFrontSide = Instance.new("Part", workspace)
-	OBFrontSide.Position = Vector3.new(-973, 24.3, -1075.5)
-	OBFrontSide.Size = Vector3.new(0.5, 3, 15)
-	OBFrontSide.Anchored = true
-	OBFrontSide.BrickColor = BrickColor.new("Medium blue")
-	OBFrontSide.Material = "SmoothPlastic"
-	OBFrontSide.Orientation = Vector3.new(0, 90, 0)
-	OBFrontSide.CastShadow = false
-	
-	
-	
-	OBRoof = Instance.new("Part", workspace)
-	OBRoof.Position = Vector3.new(-973, 34.493, -1068)
-	OBRoof.Size = Vector3.new(16, 1, 14)
-	OBRoof.Anchored = true
-	OBRoof.BrickColor = BrickColor.new("Dark stone grey")
-	OBRoof.Material = "SmoothPlastic"
-	OBRoof.CastShadow = false
-	
-	OBRoof2 = Instance.new("Part", workspace)
-	OBRoof2.Position = Vector3.new(-973, 35.493, -1067.5)
-	OBRoof2.Size = Vector3.new(14, 1, 13)
-	OBRoof2.Anchored = true
-	OBRoof2.BrickColor = BrickColor.new("Dark stone grey")
-	OBRoof2.Material = "SmoothPlastic"
-	OBRoof2.CastShadow = false
-	
-	DECALPART = Instance.new("Part", workspace)
-	DECALPART.Position = Vector3.new(-973.032, 28.493, -1061.664)
-	DECALPART.Size = Vector3.new(7, 4, 0.1)
-	DECALPART.Anchored = true
-	DECALPART.BrickColor = BrickColor.new("Dark stone grey")
-	DECALPART.Material = "SmoothPlastic"
-	DECALPART.CastShadow = false
-	
-	CASHDECAL = Instance.new("Decal",workspace)
-	CASHDECAL.Texture = "http://www.roblox.com/asset/?id=5122533677"
-	CASHDECAL.Parent = DECALPART
-	CASHDECAL.Face = "Front"
-	
-	
-	Stairs = Instance.new("WedgePart", workspace)
-	Stairs.Position = Vector3.new(-940.092, 13.3, -1063.747)
-	Stairs.Size = Vector3.new(5, 21, 51)
-	Stairs.Anchored = true
-	Stairs.BrickColor = BrickColor.new("Medium blue")
-	Stairs.Material = "SmoothPlastic"
-	Stairs.CastShadow = false
-	Stairs.Orientation = Vector3.new(0, -90, 0)
-	
-	
-	
-	
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(GGJCFGH_fake_script)()
-local function JXVZAWT_fake_script() -- AutoShipment.LocalScript 
-	local script = Instance.new('LocalScript', AutoShipment)
-
-	
-	
-	
-	function onButtonClicked()
-	game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
-	        wait(.1)
-	        game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
-	while true do wait(1)
-	    local count = 0
-	    local children = workspace:GetChildren()
-	    for i, child in ipairs(children) do
-	        if child.Name == "Shipment_Box" then
-	            count = count + 1
-	        end
-	    end
-	    if count > 4 then
-	        local text = game:GetService("Players").LocalPlayer.PlayerGui.CrateDelivery.TextLabel.Text
-	        message = text
-	        if string.find(message, "Wells") then
-	            local descendants = game.Workspace:GetChildren()
-	        	for index, descendant in pairs(descendants) do
-	            	if descendant.Name == "Shipment_Box" then
-	            		descendant.Position = Vector3.new(-967, 5, -1102.5)
-	            	end
-	        	end
-	        elseif string.find(message, "Donut") then
-	            local descendants = game.Workspace:GetChildren()
-	        	for index, descendant in pairs(descendants) do
-	        		if descendant.Name == "Shipment_Box" then
-	        			descendant.Position = Vector3.new(-945, 4.6, -1090.5)
-	        		end
-	        	end
-	        elseif string.find(message, "Federal") then
-	            local descendants = game.Workspace:GetChildren()
-	            for index, descendant in pairs(descendants) do
-	        		if descendant.Name == "Shipment_Box" then
-	        		   descendant.Position = Vector3.new(-967, 4.6, -1081.5)
-	        		end
-	            end
-	        end
-	    elseif count == 0 then
-	        game.Workspace.Saul.SpeechRemote:FireServer("StartConversation")
-	        wait(.1)
-	        game.Workspace.Saul.SpeechRemote:FireServer("GetGun")
-	        wait(0.1)
-	    end
-	end
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-	
-	
-	
-end
-coroutine.wrap(JXVZAWT_fake_script)()
-local function WAQDSYV_fake_script() -- Back_6.LocalScript 
+coroutine.wrap(LBOMBK_fake_script)()
+local function QSZDU_fake_script() -- Back_6.LocalScript 
 	local script = Instance.new('LocalScript', Back_6)
 
 	
@@ -2484,8 +1854,8 @@ local function WAQDSYV_fake_script() -- Back_6.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(WAQDSYV_fake_script)()
-local function UGZPE_fake_script() -- AntiAFKKick.LocalScript 
+coroutine.wrap(QSZDU_fake_script)()
+local function PDLGTDS_fake_script() -- AntiAFKKick.LocalScript 
 	local script = Instance.new('LocalScript', AntiAFKKick)
 
 	
@@ -2504,8 +1874,8 @@ local function UGZPE_fake_script() -- AntiAFKKick.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(UGZPE_fake_script)()
-local function EICF_fake_script() -- ToWFCodeSeat.LocalScript 
+coroutine.wrap(PDLGTDS_fake_script)()
+local function NIMKHAC_fake_script() -- ToWFCodeSeat.LocalScript 
 	local script = Instance.new('LocalScript', ToWFCodeSeat)
 
 	
@@ -2523,8 +1893,8 @@ local function EICF_fake_script() -- ToWFCodeSeat.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(EICF_fake_script)()
-local function LRJYPO_fake_script() -- ToWFVault.LocalScript 
+coroutine.wrap(NIMKHAC_fake_script)()
+local function JICSX_fake_script() -- ToWFVault.LocalScript 
 	local script = Instance.new('LocalScript', ToWFVault)
 
 	
@@ -2543,8 +1913,8 @@ local function LRJYPO_fake_script() -- ToWFVault.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(LRJYPO_fake_script)()
-local function JNZVLQ_fake_script() -- AutoRob.LocalScript 
+coroutine.wrap(JICSX_fake_script)()
+local function TKGSG_fake_script() -- AutoRob.LocalScript 
 	local script = Instance.new('LocalScript', AutoRob)
 
 	
@@ -2557,8 +1927,8 @@ local function JNZVLQ_fake_script() -- AutoRob.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(JNZVLQ_fake_script)()
-local function ECTKQKD_fake_script() -- Back_7.LocalScript 
+coroutine.wrap(TKGSG_fake_script)()
+local function YJQW_fake_script() -- Back_7.LocalScript 
 	local script = Instance.new('LocalScript', Back_7)
 
 	
@@ -2569,8 +1939,8 @@ local function ECTKQKD_fake_script() -- Back_7.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(ECTKQKD_fake_script)()
-local function VHFZIHP_fake_script() -- ChangeAllCarsHeighttoMax.LocalScript 
+coroutine.wrap(YJQW_fake_script)()
+local function PYYQ_fake_script() -- ChangeAllCarsHeighttoMax.LocalScript 
 	local script = Instance.new('LocalScript', ChangeAllCarsHeighttoMax)
 
 	
@@ -2585,26 +1955,8 @@ local function VHFZIHP_fake_script() -- ChangeAllCarsHeighttoMax.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(VHFZIHP_fake_script)()
-local function XUWZ_fake_script() -- GO.LocalScript 
-	local script = Instance.new('LocalScript', GO)
-
-	
-	function onButtonClicked()
-	
-	local bunned = script.Parent.Parent.TextBox.Text
-	local descendants = game.Workspace:GetDescendants()
-			for index, descendant in pairs(descendants) do
-			if descendant.Name == "VS3" and descendant.Parent.Name == "CarStorage" then
-			game.ReplicatedStorage.Functions.ResprayCar:InvokeServer(descendant,bunned,"Primary")
-	end
-	end
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(XUWZ_fake_script)()
-local function FGYFC_fake_script() -- GiveAllCarsBomb.LocalScript 
+coroutine.wrap(PYYQ_fake_script)()
+local function YMOVXV_fake_script() -- GiveAllCarsBomb.LocalScript 
 	local script = Instance.new('LocalScript', GiveAllCarsBomb)
 
 	
@@ -2619,107 +1971,8 @@ local function FGYFC_fake_script() -- GiveAllCarsBomb.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(FGYFC_fake_script)()
-local function SCNC_fake_script() -- Back_8.LocalScript 
-	local script = Instance.new('LocalScript', Back_8)
-
-	
-	
-	function onButtonClicked()
-	script.Parent.Parent.Visible = false
-	game.CoreGui.LEGUI.MainFrame["Buttons Frame"].Visible = true
-	end
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(SCNC_fake_script)()
-local function OHUNE_fake_script() -- Kill.LocalScript 
-	local script = Instance.new('LocalScript', Kill)
-
-	
-	
-	function onButtonClicked()
-	local wf = game.Workspace.DropoffPointBoA.ItemInteract
-	wf.Position = game:GetService("Players").LocalPlayer.Character.Head.Position 
-	wf.Anchored = true
-		wf.Size = Vector3.new(20,20,20)
-	end
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(OHUNE_fake_script)()
-local function HBBJFX_fake_script() -- BuildSportsCarRoofGarage.LocalScript 
-	local script = Instance.new('LocalScript', BuildSportsCarRoofGarage)
-
-	
-	function onButtonClicked()
-	
-		local Side1 = Instance.new("Part",workspace)
-		Side1.Size = Vector3.new(17, 12, 2)
-		Side1.Position = Vector3.new(1322.5, 8.85, 518)
-		Side1.Orientation = Vector3.new(0, 90, 0)
-		Side1.CastShadow = false
-		Side1.CanCollide = false
-		Side1.Anchored = true
-		
-		local Roof = Instance.new("Part",workspace)
-		Roof.Size = Vector3.new(17, 1, 18)
-		Roof.Position = Vector3.new(1328.5, 14.35, 518)
-		Roof.CastShadow = false
-		Roof.CanCollide = false
-		Roof.Anchored = true
-		
-		local Side2 = Instance.new("Part",workspace)
-		Side2.Size = Vector3.new(17, 12, 2)
-		Side2.Position = Vector3.new(1335.5, 8.85, 518)
-		Side2.Orientation = Vector3.new(0, 90, 0)
-		Side2.CastShadow = false
-		Side2.CanCollide = false
-		Side2.Anchored = true
-		
-		local Floor = Instance.new("Part",workspace)
-		Floor.Size = Vector3.new(17, 62, 0.1)
-		Floor.Position = Vector3.new(1328.5, 2.85, 510)
-		Floor.Orientation = Vector3.new(-90, 0, 0)
-		Floor.CastShadow = false
-		Floor.CanCollide = true
-		Floor.Anchored = true
-	end
-	
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(HBBJFX_fake_script)()
-local function YOXGG_fake_script() -- AddRoofRemover.LocalScript 
-	local script = Instance.new('LocalScript', AddRoofRemover)
-
-	
-	
-	function onButtonClicked()
-	local wf = game.Workspace.DropoffPointBoA.ItemInteract
-	wf.Position = Vector3.new(1328.8, 8.8, 521.7)
-	wf.Anchored = true
-		wf.Size = Vector3.new(10, 1, 9)
-		wait(1)
-		wf.Position = Vector3.new(1328.8, 8.6, 521.7)
-		
-		
-	end
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(YOXGG_fake_script)()
-local function XEBKQ_fake_script() -- RemoveRoofRemover.LocalScript 
-	local script = Instance.new('LocalScript', RemoveRoofRemover)
-
-	
-	
-	function onButtonClicked()
-	local wf = game.Workspace.DropoffPointBoA.ItemInteract
-	wf.Position = Vector3.new(0,0,0)
-	
-		
-	end
-	script.Parent.MouseButton1Down:connect(onButtonClicked)
-end
-coroutine.wrap(XEBKQ_fake_script)()
-local function NIHOGMD_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(YMOVXV_fake_script)()
+local function XXHH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
@@ -2731,8 +1984,8 @@ local function NIHOGMD_fake_script() -- TextButton.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(NIHOGMD_fake_script)()
-local function FEYQZWR_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XXHH_fake_script)()
+local function NQST_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	
@@ -2744,8 +1997,8 @@ local function FEYQZWR_fake_script() -- TextButton_2.LocalScript
 	end
 	script.Parent.MouseButton1Down:connect(onButtonClicked)
 end
-coroutine.wrap(FEYQZWR_fake_script)()
-local function XFVQQTH_fake_script() -- AutoExecute.LocalScript 
+coroutine.wrap(NQST_fake_script)()
+local function BTTG_fake_script() -- AutoExecute.LocalScript 
 	local script = Instance.new('LocalScript', AutoExecute)
 
 	
@@ -2765,4 +2018,4 @@ local function XFVQQTH_fake_script() -- AutoExecute.LocalScript
 	
 	
 end
-coroutine.wrap(XFVQQTH_fake_script)()
+coroutine.wrap(BTTG_fake_script)()
